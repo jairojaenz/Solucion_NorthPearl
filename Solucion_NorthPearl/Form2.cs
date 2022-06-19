@@ -22,5 +22,10 @@ namespace Solucion_NorthPearl
             this.Close();
                 
         }
+
+        private void btnCrearFrm2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
