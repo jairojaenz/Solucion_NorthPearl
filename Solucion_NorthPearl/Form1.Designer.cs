@@ -150,6 +150,7 @@
             this.btnCrearCuenta.TabIndex = 9;
             this.btnCrearCuenta.Text = "Crear Cuenta";
             this.btnCrearCuenta.UseVisualStyleBackColor = false;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // btnIniciarSesion
             // 

@@ -6,5 +6,11 @@ namespace Solucion_NorthPearl
         {
             InitializeComponent();
         }
+
+        private void btnCrearCuenta_Click(object sender, EventArgs e)
+        {
+            frmCrearCuenta miforma = new frmCrearCuenta();
+            miforma.ShowDialog();
+        }
     }
 }
