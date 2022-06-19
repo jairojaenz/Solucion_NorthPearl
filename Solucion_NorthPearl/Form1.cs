@@ -1,8 +1,8 @@
 namespace Solucion_NorthPearl
 {
-    public partial class Form1 : Form
+    public partial class frmNorthPearl : Form
     {
-        public Form1()
+        public frmNorthPearl()
         {
             InitializeComponent();
         }
