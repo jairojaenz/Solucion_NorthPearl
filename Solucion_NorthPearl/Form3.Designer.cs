@@ -63,7 +63,7 @@
             // 
             this.picbxLogoFrmRecuperarCuenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoFrmRecuperarCuenta.BackgroundImage")));
             this.picbxLogoFrmRecuperarCuenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(207, 12);
+            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(202, 12);
             this.picbxLogoFrmRecuperarCuenta.Name = "picbxLogoFrmRecuperarCuenta";
             this.picbxLogoFrmRecuperarCuenta.Size = new System.Drawing.Size(100, 50);
             this.picbxLogoFrmRecuperarCuenta.TabIndex = 1;
@@ -230,6 +230,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(304, 533);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnCambiarContra);
