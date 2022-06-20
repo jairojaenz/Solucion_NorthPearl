@@ -119,7 +119,7 @@
             // 
             this.lblRecupContra.AutoSize = true;
             this.lblRecupContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblRecupContra.Location = new System.Drawing.Point(88, 268);
+            this.lblRecupContra.Location = new System.Drawing.Point(44, 268);
             this.lblRecupContra.Name = "lblRecupContra";
             this.lblRecupContra.Size = new System.Drawing.Size(155, 18);
             this.lblRecupContra.TabIndex = 7;
@@ -129,12 +129,13 @@
             // 
             this.linklblRecuperar.AutoSize = true;
             this.linklblRecuperar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linklblRecuperar.Location = new System.Drawing.Point(240, 268);
+            this.linklblRecuperar.Location = new System.Drawing.Point(192, 268);
             this.linklblRecuperar.Name = "linklblRecuperar";
-            this.linklblRecuperar.Size = new System.Drawing.Size(70, 18);
+            this.linklblRecuperar.Size = new System.Drawing.Size(113, 18);
             this.linklblRecuperar.TabIndex = 8;
             this.linklblRecuperar.TabStop = true;
-            this.linklblRecuperar.Text = "Recuperar";
+            this.linklblRecuperar.Text = "Recuperar cuenta";
+            this.linklblRecuperar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblRecuperar_LinkClicked);
             // 
             // btnCrearCuenta
             // 

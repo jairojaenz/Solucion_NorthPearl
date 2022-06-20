@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Solucion_NorthPearl
 {
-    public partial class Form3 : Form
+    public partial class frmRecuperar : Form
     {
-        public Form3()
+        public frmRecuperar()
         {
             InitializeComponent();
+        }
+
+        private void v_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

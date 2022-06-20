@@ -12,5 +12,11 @@ namespace Solucion_NorthPearl
             frmCrearCuenta miforma = new frmCrearCuenta();
             miforma.ShowDialog();
         }
+
+        private void linklblRecuperar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmRecuperar miforma2 = new frmRecuperar();
+            miforma2.ShowDialog();
+        }
     }
 }
