@@ -37,12 +37,12 @@
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.lblContrasena = new System.Windows.Forms.Label();
             this.lblNacionalidad = new System.Windows.Forms.Label();
-            this.cbbxNacionalidad = new System.Windows.Forms.ComboBox();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.cbbxEntrada = new System.Windows.Forms.ComboBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.btnCrearFrm2 = new System.Windows.Forms.Button();
             this.picbxLogofrm2 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,14 +118,6 @@
             this.lblNacionalidad.TabIndex = 7;
             this.lblNacionalidad.Text = "Nacionalidad";
             // 
-            // cbbxNacionalidad
-            // 
-            this.cbbxNacionalidad.FormattingEnabled = true;
-            this.cbbxNacionalidad.Location = new System.Drawing.Point(76, 360);
-            this.cbbxNacionalidad.Name = "cbbxNacionalidad";
-            this.cbbxNacionalidad.Size = new System.Drawing.Size(184, 23);
-            this.cbbxNacionalidad.TabIndex = 8;
-            // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
@@ -178,18 +170,281 @@
             this.picbxLogofrm2.TabIndex = 13;
             this.picbxLogofrm2.TabStop = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Afganistán",
+            "Akrotiri",
+            "Albania",
+            "Alemania",
+            "Andorra",
+            "Angola",
+            "Anguila",
+            "Antártida",
+            "Antigua y Barbuda",
+            "Antillas Neerlandesas",
+            "Arabia Saudí",
+            "Arctic Ocean",
+            "Argelia",
+            "Argentina",
+            "Armenia",
+            "Aruba",
+            "Ashmore andCartier Islands",
+            "Atlantic Ocean",
+            "Australia",
+            "Austria",
+            "Azerbaiyán",
+            "Bahamas",
+            "Bahráin",
+            "Bangladesh",
+            "Barbados",
+            "Bélgica",
+            "Belice",
+            "Benín",
+            "Bermudas",
+            "Bielorrusia",
+            "Birmania Myanmar",
+            "Bolivia",
+            "Bosnia y Hercegovina",
+            "Botsuana",
+            "Brasil",
+            "Brunéi",
+            "Bulgaria",
+            "Burkina Faso",
+            "Burundi",
+            "Bután",
+            "Cabo Verde",
+            "Camboya",
+            "Camerún",
+            "Canadá",
+            "Chad",
+            "Chile",
+            "China",
+            "Chipre",
+            "Clipperton Island",
+            "Colombia",
+            "Comoras",
+            "Congo",
+            "Coral Sea Islands",
+            "Corea del Norte",
+            "Corea del Sur",
+            "Costa de Marfil",
+            "Costa Rica",
+            "Croacia",
+            "Cuba",
+            "Dhekelia",
+            "Dinamarca",
+            "Dominica",
+            "Ecuador",
+            "Egipto",
+            "El Salvador",
+            "El Vaticano",
+            "Emiratos Árabes Unidos",
+            "Eritrea",
+            "Eslovaquia",
+            "Eslovenia",
+            "España",
+            "Estados Unidos",
+            "Estonia",
+            "Etiopía",
+            "Filipinas",
+            "Finlandia",
+            "Fiyi",
+            "Francia",
+            "Gabón",
+            "Gambia",
+            "Gaza Strip",
+            "Georgia",
+            "Ghana",
+            "Gibraltar",
+            "Granada",
+            "Grecia",
+            "Groenlandia",
+            "Guam",
+            "Guatemala",
+            "Guernsey",
+            "Guinea",
+            "Guinea Ecuatorial",
+            "Guinea-Bissau",
+            "Guyana",
+            "Haití",
+            "Honduras",
+            "Hong Kong",
+            "Hungría",
+            "India",
+            "Indian Ocean",
+            "Indonesia",
+            "Irán",
+            "Iraq",
+            "Irlanda",
+            "Isla Bouvet",
+            "Isla Christmas",
+            "Isla Norfolk",
+            "Islandia",
+            "Islas Caimán",
+            "Islas Cocos",
+            "Islas Cook",
+            "Islas Feroe",
+            "Islas Georgia del Sur y Sandwich del Sur",
+            "Islas Heard y McDonald",
+            "Islas Malvinas",
+            "Islas Marianas del Norte",
+            "IslasMarshall",
+            "Islas Pitcairn",
+            "Islas Salomón",
+            "Islas Turcas y Caicos",
+            "Islas Vírgenes Americanas",
+            "Islas Vírgenes Británicas",
+            "Israel",
+            "Italia",
+            "Jamaica",
+            "Jan Mayen",
+            "Japón",
+            "Jersey",
+            "Jordania",
+            "Kazajistán",
+            "Kenia",
+            "Kirguizistán",
+            "Kiribati",
+            "Kuwait",
+            "Laos",
+            "Lesoto",
+            "Letonia",
+            "Líbano",
+            "Liberia",
+            "Libia",
+            "Liechtenstein",
+            "Lituania",
+            "Luxemburgo",
+            "Macao",
+            "Macedonia",
+            "Madagascar",
+            "Malasia",
+            "Malaui",
+            "Maldivas",
+            "Malí",
+            "Malta",
+            "Man, Isle of",
+            "Marruecos",
+            "Mauricio",
+            "Mauritania",
+            "Mayotte",
+            "México",
+            "Micronesia",
+            "Moldavia",
+            "Mónaco",
+            "Mongolia",
+            "Montserrat",
+            "Mozambique",
+            "Namibia",
+            "Nauru",
+            "Navassa Island",
+            "Nepal",
+            "Nicaragua",
+            "Níger",
+            "Nigeria",
+            "Niue",
+            "Noruega",
+            "Nueva Caledonia",
+            "Nueva Zelanda",
+            "Omán",
+            "Pacific Ocean",
+            "Países Bajos",
+            "Pakistán",
+            "Palaos",
+            "Panamá",
+            "Papúa-Nueva Guinea",
+            "Paracel Islands",
+            "Paraguay",
+            "Perú",
+            "Polinesia Francesa",
+            "Polonia",
+            "Portugal",
+            "Puerto Rico",
+            "Qatar",
+            "Reino Unido",
+            "República Centroafricana",
+            "República Checa",
+            "República Democrática del Congo",
+            "República Dominicana",
+            "Ruanda",
+            "Rumania",
+            "Rusia",
+            "Sáhara Occidental",
+            "Samoa",
+            "Samoa Americana",
+            "San Cristóbal y Nieves",
+            "San Marino",
+            "San Pedro y Miquelón",
+            "San Vicente y las Granadinas",
+            "Santa Helena",
+            "Santa Lucía",
+            "Santo Tomé y Príncipe",
+            "Senegal",
+            "Seychelles",
+            "Sierra Leona",
+            "Singapur",
+            "Siria",
+            "Somalia",
+            "Southern Ocean",
+            "Spratly Islands",
+            "Sri Lanka",
+            "Suazilandia",
+            "Sudáfrica",
+            "Sudán",
+            "Suecia",
+            "Suiza",
+            "Surinam",
+            "Svalbard y Jan Mayen",
+            "Tailandia",
+            "Taiwán",
+            "Tanzania",
+            "Tayikistán",
+            "TerritorioBritánicodel Océano Indico",
+            "Territorios Australes Franceses",
+            "Timor Oriental",
+            "Togo",
+            "Tokelau",
+            "Tonga",
+            "Trinidad y Tobago",
+            "Túnez",
+            "Turkmenistán",
+            "Turquía",
+            "Tuvalu",
+            "Ucrania",
+            "Uganda",
+            "Unión Europea",
+            "Uruguay",
+            "Uzbekistán",
+            "Vanuatu",
+            "Venezuela",
+            "Vietnam",
+            "Wake Island",
+            "Wallis y Futuna",
+            "West Bank",
+            "World",
+            "Yemen",
+            "Yibuti",
+            "Zambia",
+            "Zimbabue"});
+            this.comboBox1.Location = new System.Drawing.Point(76, 359);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(184, 23);
+            this.comboBox1.TabIndex = 14;
+            // 
             // frmCrearCuenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(312, 531);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.btnCrearFrm2);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.cbbxEntrada);
             this.Controls.Add(this.lblTelefono);
-            this.Controls.Add(this.cbbxNacionalidad);
             this.Controls.Add(this.lblNacionalidad);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.lblContrasena);
@@ -217,11 +472,11 @@
         private TextBox txtContrasena;
         private Label lblContrasena;
         private Label lblNacionalidad;
-        private ComboBox cbbxNacionalidad;
         private Label lblTelefono;
         private ComboBox cbbxEntrada;
         private TextBox txtTelefono;
         private Button btnCrearFrm2;
         private PictureBox picbxLogofrm2;
+        private ComboBox comboBox1;
     }
 }
