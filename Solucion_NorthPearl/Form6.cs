@@ -16,5 +16,12 @@ namespace Solucion_NorthPearl
         {
             InitializeComponent();
         }
+
+        private void btnGuarardarCambiosFrm2_Click(object sender, EventArgs e)
+        {
+            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
+            miforma5.Show();
+            this.Hide();
+        }
     }
 }

@@ -128,6 +128,7 @@
             this.btnCerrarSesión.TabIndex = 30;
             this.btnCerrarSesión.Text = "Cerrar Sesión";
             this.btnCerrarSesión.UseVisualStyleBackColor = false;
+            this.btnCerrarSesión.Click += new System.EventHandler(this.btnCerrarSesión_Click);
             // 
             // picbxLogoApp
             // 

@@ -28,5 +28,13 @@ namespace Solucion_NorthPearl
             miforma5.Show();
             this.Hide();
         }
+
+        private void btnCerrarSesión_Click(object sender, EventArgs e)
+        {
+            frmNorthPearl miforma6 = new frmNorthPearl();
+            miforma6.Show();
+            this.Hide();
+
+        }
     }
 }

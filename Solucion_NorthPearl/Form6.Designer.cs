@@ -636,6 +636,7 @@
             this.btnGuarardarCambiosFrm2.TabIndex = 23;
             this.btnGuarardarCambiosFrm2.Text = "Guardar Cambios";
             this.btnGuarardarCambiosFrm2.UseVisualStyleBackColor = false;
+            this.btnGuarardarCambiosFrm2.Click += new System.EventHandler(this.btnGuarardarCambiosFrm2_Click);
             // 
             // frmEditarCuenta
             // 
