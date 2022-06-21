@@ -92,6 +92,7 @@
             // 
             // txtCorreo
             // 
+            this.txtCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtCorreo.Location = new System.Drawing.Point(30, 172);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(233, 23);
@@ -128,26 +129,32 @@
             // linklblRecuperar
             // 
             this.linklblRecuperar.AutoSize = true;
+            this.linklblRecuperar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linklblRecuperar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linklblRecuperar.LinkColor = System.Drawing.Color.DodgerBlue;
             this.linklblRecuperar.Location = new System.Drawing.Point(192, 268);
             this.linklblRecuperar.Name = "linklblRecuperar";
             this.linklblRecuperar.Size = new System.Drawing.Size(113, 18);
             this.linklblRecuperar.TabIndex = 8;
             this.linklblRecuperar.TabStop = true;
+            this.linklblRecuperar.Tag = "";
             this.linklblRecuperar.Text = "Recuperar cuenta";
             this.linklblRecuperar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblRecuperar_LinkClicked);
             // 
             // btnCrearCuenta
             // 
-            this.btnCrearCuenta.BackColor = System.Drawing.Color.Blue;
-            this.btnCrearCuenta.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnCrearCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCrearCuenta.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCrearCuenta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCrearCuenta.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearCuenta.FlatAppearance.BorderSize = 2;
+            this.btnCrearCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCrearCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
             this.btnCrearCuenta.Location = new System.Drawing.Point(28, 307);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
-            this.btnCrearCuenta.Size = new System.Drawing.Size(97, 23);
+            this.btnCrearCuenta.Size = new System.Drawing.Size(102, 28);
             this.btnCrearCuenta.TabIndex = 9;
             this.btnCrearCuenta.Text = "Crear Cuenta";
             this.btnCrearCuenta.UseVisualStyleBackColor = false;
@@ -155,15 +162,17 @@
             // 
             // btnIniciarSesion
             // 
-            this.btnIniciarSesion.BackColor = System.Drawing.Color.Blue;
-            this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnIniciarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnIniciarSesion.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnIniciarSesion.FlatAppearance.BorderSize = 2;
+            this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnIniciarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciarSesion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnIniciarSesion.ForeColor = System.Drawing.Color.White;
             this.btnIniciarSesion.Location = new System.Drawing.Point(166, 307);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(106, 23);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(106, 28);
             this.btnIniciarSesion.TabIndex = 10;
             this.btnIniciarSesion.Text = "Iniciar Sesión";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;

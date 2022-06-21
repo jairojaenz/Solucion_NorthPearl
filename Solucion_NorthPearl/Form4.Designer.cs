@@ -83,15 +83,18 @@
             // 
             // btnGuardarCambios
             // 
-            this.btnGuardarCambios.BackColor = System.Drawing.Color.Blue;
-            this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnGuardarCambios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGuardarCambios.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnGuardarCambios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
+            this.btnGuardarCambios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnGuardarCambios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarCambios.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
             this.btnGuardarCambios.Location = new System.Drawing.Point(86, 343);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
-            this.btnGuardarCambios.Size = new System.Drawing.Size(129, 23);
+            this.btnGuardarCambios.Size = new System.Drawing.Size(129, 28);
             this.btnGuardarCambios.TabIndex = 13;
             this.btnGuardarCambios.Text = "Guardar Cambios";
             this.btnGuardarCambios.UseVisualStyleBackColor = false;

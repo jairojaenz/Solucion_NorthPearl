@@ -73,7 +73,7 @@
             // 
             this.lblModoDeRecuperacion.AutoSize = true;
             this.lblModoDeRecuperacion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblModoDeRecuperacion.Location = new System.Drawing.Point(83, 100);
+            this.lblModoDeRecuperacion.Location = new System.Drawing.Point(106, 98);
             this.lblModoDeRecuperacion.Name = "lblModoDeRecuperacion";
             this.lblModoDeRecuperacion.Size = new System.Drawing.Size(145, 18);
             this.lblModoDeRecuperacion.TabIndex = 2;
@@ -94,7 +94,7 @@
             // 
             // txtCorreoFrmRecuperarCuenta
             // 
-            this.txtCorreoFrmRecuperarCuenta.Location = new System.Drawing.Point(37, 212);
+            this.txtCorreoFrmRecuperarCuenta.Location = new System.Drawing.Point(60, 210);
             this.txtCorreoFrmRecuperarCuenta.Name = "txtCorreoFrmRecuperarCuenta";
             this.txtCorreoFrmRecuperarCuenta.Size = new System.Drawing.Size(191, 23);
             this.txtCorreoFrmRecuperarCuenta.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             this.lblEscrbirCorreo.AutoSize = true;
             this.lblEscrbirCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblEscrbirCorreo.Location = new System.Drawing.Point(37, 191);
+            this.lblEscrbirCorreo.Location = new System.Drawing.Point(60, 189);
             this.lblEscrbirCorreo.Name = "lblEscrbirCorreo";
             this.lblEscrbirCorreo.Size = new System.Drawing.Size(111, 18);
             this.lblEscrbirCorreo.TabIndex = 5;
@@ -113,7 +113,7 @@
             // 
             this.grpbxSelecModoRecup.Controls.Add(this.rbtnMensaje);
             this.grpbxSelecModoRecup.Controls.Add(this.rbtnCorreo);
-            this.grpbxSelecModoRecup.Location = new System.Drawing.Point(37, 100);
+            this.grpbxSelecModoRecup.Location = new System.Drawing.Point(60, 98);
             this.grpbxSelecModoRecup.Name = "grpbxSelecModoRecup";
             this.grpbxSelecModoRecup.Size = new System.Drawing.Size(200, 88);
             this.grpbxSelecModoRecup.TabIndex = 6;
@@ -134,7 +134,7 @@
             // 
             this.lblTlfnFrmRecup.AutoSize = true;
             this.lblTlfnFrmRecup.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTlfnFrmRecup.Location = new System.Drawing.Point(39, 245);
+            this.lblTlfnFrmRecup.Location = new System.Drawing.Point(62, 243);
             this.lblTlfnFrmRecup.Name = "lblTlfnFrmRecup";
             this.lblTlfnFrmRecup.Size = new System.Drawing.Size(125, 18);
             this.lblTlfnFrmRecup.TabIndex = 8;
@@ -142,29 +142,32 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 266);
+            this.textBox1.Location = new System.Drawing.Point(62, 264);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 23);
             this.textBox1.TabIndex = 7;
             // 
             // btnEnviarCodigo
             // 
-            this.btnEnviarCodigo.BackColor = System.Drawing.Color.Blue;
-            this.btnEnviarCodigo.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnEnviarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnEnviarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEnviarCodigo.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnEnviarCodigo.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEnviarCodigo.FlatAppearance.BorderSize = 2;
+            this.btnEnviarCodigo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnEnviarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEnviarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnviarCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEnviarCodigo.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarCodigo.Location = new System.Drawing.Point(83, 306);
+            this.btnEnviarCodigo.Location = new System.Drawing.Point(106, 304);
             this.btnEnviarCodigo.Name = "btnEnviarCodigo";
-            this.btnEnviarCodigo.Size = new System.Drawing.Size(109, 23);
+            this.btnEnviarCodigo.Size = new System.Drawing.Size(109, 28);
             this.btnEnviarCodigo.TabIndex = 13;
             this.btnEnviarCodigo.Text = "Enviar Código";
+            this.btnEnviarCodigo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnEnviarCodigo.UseVisualStyleBackColor = false;
             // 
             // txtIngresarCodigo
             // 
-            this.txtIngresarCodigo.Location = new System.Drawing.Point(37, 364);
+            this.txtIngresarCodigo.Location = new System.Drawing.Point(60, 362);
             this.txtIngresarCodigo.Name = "txtIngresarCodigo";
             this.txtIngresarCodigo.Size = new System.Drawing.Size(191, 23);
             this.txtIngresarCodigo.TabIndex = 14;
@@ -173,7 +176,7 @@
             // 
             this.lblIngreseCodigo.AutoSize = true;
             this.lblIngreseCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblIngreseCodigo.Location = new System.Drawing.Point(37, 343);
+            this.lblIngreseCodigo.Location = new System.Drawing.Point(60, 341);
             this.lblIngreseCodigo.Name = "lblIngreseCodigo";
             this.lblIngreseCodigo.Size = new System.Drawing.Size(113, 18);
             this.lblIngreseCodigo.TabIndex = 15;
@@ -181,43 +184,50 @@
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.BackColor = System.Drawing.Color.Blue;
-            this.btnConfirmar.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConfirmar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnConfirmar.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnConfirmar.FlatAppearance.BorderSize = 2;
+            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnConfirmar.ForeColor = System.Drawing.Color.White;
-            this.btnConfirmar.Location = new System.Drawing.Point(72, 403);
+            this.btnConfirmar.Location = new System.Drawing.Point(95, 401);
             this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(129, 23);
+            this.btnConfirmar.Size = new System.Drawing.Size(129, 28);
             this.btnConfirmar.TabIndex = 16;
             this.btnConfirmar.Text = "Confirmar Código";
             this.btnConfirmar.UseVisualStyleBackColor = false;
             // 
             // btnCambiarContra
             // 
-            this.btnCambiarContra.BackColor = System.Drawing.Color.Blue;
-            this.btnCambiarContra.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnCambiarContra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnCambiarContra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCambiarContra.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCambiarContra.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCambiarContra.FlatAppearance.BorderSize = 2;
+            this.btnCambiarContra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCambiarContra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCambiarContra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCambiarContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCambiarContra.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarContra.Location = new System.Drawing.Point(55, 449);
+            this.btnCambiarContra.Location = new System.Drawing.Point(78, 447);
             this.btnCambiarContra.Name = "btnCambiarContra";
-            this.btnCambiarContra.Size = new System.Drawing.Size(165, 23);
+            this.btnCambiarContra.Size = new System.Drawing.Size(165, 28);
             this.btnCambiarContra.TabIndex = 17;
             this.btnCambiarContra.Text = "Ir a cambiar contraseña";
             this.btnCambiarContra.UseVisualStyleBackColor = false;
+            this.btnCambiarContra.Click += new System.EventHandler(this.btnCambiarContra_Click);
             // 
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.White;
-            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
+            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCancelar.FlatAppearance.BorderSize = 2;
+            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCancelar.ForeColor = System.Drawing.Color.Black;
-            this.btnCancelar.Location = new System.Drawing.Point(83, 493);
+            this.btnCancelar.Location = new System.Drawing.Point(106, 491);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(109, 28);
             this.btnCancelar.TabIndex = 18;

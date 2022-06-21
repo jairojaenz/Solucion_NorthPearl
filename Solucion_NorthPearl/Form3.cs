@@ -27,5 +27,12 @@ namespace Solucion_NorthPearl
         {
             this.Close();
         }
+
+        private void btnCambiarContra_Click(object sender, EventArgs e)
+        {
+            frmCambiarContrasena miforma3 = new frmCambiarContrasena();
+            miforma3.ShowDialog();
+
+        }
     }
 }

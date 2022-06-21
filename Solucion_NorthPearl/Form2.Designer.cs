@@ -388,15 +388,17 @@
             // 
             // btnCrearFrm2
             // 
-            this.btnCrearFrm2.BackColor = System.Drawing.Color.Blue;
-            this.btnCrearFrm2.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnCrearFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnCrearFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCrearFrm2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCrearFrm2.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearFrm2.FlatAppearance.BorderSize = 2;
+            this.btnCrearFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCrearFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCrearFrm2.ForeColor = System.Drawing.Color.White;
             this.btnCrearFrm2.Location = new System.Drawing.Point(114, 485);
             this.btnCrearFrm2.Name = "btnCrearFrm2";
-            this.btnCrearFrm2.Size = new System.Drawing.Size(97, 23);
+            this.btnCrearFrm2.Size = new System.Drawing.Size(97, 28);
             this.btnCrearFrm2.TabIndex = 12;
             this.btnCrearFrm2.Text = "Crear";
             this.btnCrearFrm2.UseVisualStyleBackColor = false;
