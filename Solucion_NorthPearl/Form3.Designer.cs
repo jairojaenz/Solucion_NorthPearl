@@ -82,6 +82,7 @@
             // rbtnCorreo
             // 
             this.rbtnCorreo.AutoSize = true;
+            this.rbtnCorreo.Checked = true;
             this.rbtnCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbtnCorreo.Location = new System.Drawing.Point(9, 22);
             this.rbtnCorreo.Name = "rbtnCorreo";
@@ -126,7 +127,6 @@
             this.rbtnMensaje.Name = "rbtnMensaje";
             this.rbtnMensaje.Size = new System.Drawing.Size(184, 22);
             this.rbtnMensaje.TabIndex = 4;
-            this.rbtnMensaje.TabStop = true;
             this.rbtnMensaje.Text = "Enviar código por mensaje";
             this.rbtnMensaje.UseVisualStyleBackColor = true;
             // 

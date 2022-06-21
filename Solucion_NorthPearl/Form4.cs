@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace Solucion_NorthPearl
 {
-    public partial class frmRecuperar : Form
+    public partial class frmCambiarContrasena : Form
     {
-        public frmRecuperar()
+        public frmCambiarContrasena()
         {
             InitializeComponent();
-            
-        }
-
-        private void v_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
