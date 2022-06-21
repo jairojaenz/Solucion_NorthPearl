@@ -110,6 +110,7 @@
             this.btnEditarCuenta.TabIndex = 29;
             this.btnEditarCuenta.Text = "Editar Cuenta";
             this.btnEditarCuenta.UseVisualStyleBackColor = false;
+            this.btnEditarCuenta.Click += new System.EventHandler(this.btnEditarCuenta_Click);
             // 
             // btnCerrarSesión
             // 

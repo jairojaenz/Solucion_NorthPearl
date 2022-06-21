@@ -21,5 +21,12 @@ namespace Solucion_NorthPearl
         {
 
         }
+
+        private void btnEditarCuenta_Click(object sender, EventArgs e)
+        {
+            frmEditarCuenta miforma5 = new frmEditarCuenta();
+            miforma5.Show();
+            this.Hide();
+        }
     }
 }

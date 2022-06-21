@@ -176,6 +176,7 @@
             this.btnIniciarSesion.TabIndex = 10;
             this.btnIniciarSesion.Text = "Iniciar Sesión";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
+            this.btnIniciarSesion.Click += new System.EventHandler(this.btnIniciarSesion_Click);
             // 
             // lblContinuarCon
             // 

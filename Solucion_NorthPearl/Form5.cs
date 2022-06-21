@@ -41,5 +41,12 @@ namespace Solucion_NorthPearl
         {
 
         }
+
+        private void picbxUsuario_Click(object sender, EventArgs e)
+        {
+            Form7 miforma4 = new Form7();
+            miforma4.Show();
+            this.Hide();
+        }
     }
 }

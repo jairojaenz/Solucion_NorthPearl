@@ -18,5 +18,12 @@ namespace Solucion_NorthPearl
             frmRecuperar miforma2 = new frmRecuperar();
             miforma2.ShowDialog();
         }
+
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            frmPantallaPrincipal miforma3= new frmPantallaPrincipal();
+            miforma3.Show();
+            this.Hide();
+        }
     }
 }

@@ -291,6 +291,7 @@
             this.picbxUsuario.Size = new System.Drawing.Size(68, 35);
             this.picbxUsuario.TabIndex = 21;
             this.picbxUsuario.TabStop = false;
+            this.picbxUsuario.Click += new System.EventHandler(this.picbxUsuario_Click);
             // 
             // picbxMenu
             // 
