@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Solucion_NorthPearl
 {
-    public partial class frmEditarCuenta : Form
+    public partial class frmPantallaPrincipal : Form
     {
-        public frmEditarCuenta()
+        public frmPantallaPrincipal()
         {
             InitializeComponent();
         }
@@ -23,6 +23,21 @@ namespace Solucion_NorthPearl
         }
 
         private void lblCrearCuenta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picCatedral_Click(object sender, EventArgs e)
         {
 
         }
