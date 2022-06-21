@@ -128,7 +128,6 @@
             // 
             // linklblRecuperar
             // 
-            this.linklblRecuperar.ActiveLinkColor = System.Drawing.Color.DeepSkyBlue;
             this.linklblRecuperar.AutoSize = true;
             this.linklblRecuperar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linklblRecuperar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -148,7 +147,7 @@
             this.btnCrearCuenta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCrearCuenta.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCrearCuenta.FlatAppearance.BorderSize = 2;
-            this.btnCrearCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCrearCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
             this.btnCrearCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -166,7 +165,7 @@
             this.btnIniciarSesion.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnIniciarSesion.FlatAppearance.BorderSize = 2;
-            this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
+            this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
             this.btnIniciarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciarSesion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
