@@ -87,7 +87,7 @@
             this.btnGuardarCambios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
-            this.btnGuardarCambios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnGuardarCambios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
             this.btnGuardarCambios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarCambios.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);

@@ -391,7 +391,7 @@
             this.btnCrearFrm2.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCrearFrm2.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCrearFrm2.FlatAppearance.BorderSize = 2;
-            this.btnCrearFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCrearFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
             this.btnCrearFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCrearFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);

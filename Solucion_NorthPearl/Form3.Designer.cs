@@ -83,6 +83,10 @@
             // 
             this.rbtnCorreo.AutoSize = true;
             this.rbtnCorreo.Checked = true;
+            this.rbtnCorreo.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.rbtnCorreo.FlatAppearance.CheckedBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.rbtnCorreo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.rbtnCorreo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.rbtnCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbtnCorreo.Location = new System.Drawing.Point(9, 22);
             this.rbtnCorreo.Name = "rbtnCorreo";
@@ -122,6 +126,10 @@
             // rbtnMensaje
             // 
             this.rbtnMensaje.AutoSize = true;
+            this.rbtnMensaje.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.rbtnMensaje.FlatAppearance.CheckedBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.rbtnMensaje.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.rbtnMensaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.rbtnMensaje.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbtnMensaje.Location = new System.Drawing.Point(9, 50);
             this.rbtnMensaje.Name = "rbtnMensaje";
@@ -152,7 +160,7 @@
             this.btnEnviarCodigo.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnEnviarCodigo.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnEnviarCodigo.FlatAppearance.BorderSize = 2;
-            this.btnEnviarCodigo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnEnviarCodigo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
             this.btnEnviarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnEnviarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnviarCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -187,7 +195,7 @@
             this.btnConfirmar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnConfirmar.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnConfirmar.FlatAppearance.BorderSize = 2;
-            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
             this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -204,7 +212,7 @@
             this.btnCambiarContra.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCambiarContra.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCambiarContra.FlatAppearance.BorderSize = 2;
-            this.btnCambiarContra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCambiarContra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
             this.btnCambiarContra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCambiarContra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCambiarContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -222,7 +230,7 @@
             this.btnCancelar.BackColor = System.Drawing.Color.White;
             this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCancelar.FlatAppearance.BorderSize = 2;
-            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
+            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
