@@ -35,12 +35,15 @@
             this.lblConfirmarContrasena = new System.Windows.Forms.Label();
             this.txtConfirmarContrasena = new System.Windows.Forms.TextBox();
             this.btnGuardarCambios = new System.Windows.Forms.Button();
+            this.picbxLogoFrmRecuperarCuenta = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picbxLogoFrmRecuperarCuenta)).BeginInit();
             this.SuspendLayout();
             // 
             // lblCambiarContrasena
             // 
             this.lblCambiarContrasena.AutoSize = true;
             this.lblCambiarContrasena.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCambiarContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblCambiarContrasena.Location = new System.Drawing.Point(57, 105);
             this.lblCambiarContrasena.Name = "lblCambiarContrasena";
             this.lblCambiarContrasena.Size = new System.Drawing.Size(197, 26);
@@ -58,6 +61,7 @@
             // 
             this.lblNuevaContrasena.AutoSize = true;
             this.lblNuevaContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNuevaContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblNuevaContrasena.Location = new System.Drawing.Point(55, 169);
             this.lblNuevaContrasena.Name = "lblNuevaContrasena";
             this.lblNuevaContrasena.Size = new System.Drawing.Size(170, 18);
@@ -68,6 +72,7 @@
             // 
             this.lblConfirmarContrasena.AutoSize = true;
             this.lblConfirmarContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblConfirmarContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblConfirmarContrasena.Location = new System.Drawing.Point(55, 251);
             this.lblConfirmarContrasena.Name = "lblConfirmarContrasena";
             this.lblConfirmarContrasena.Size = new System.Drawing.Size(186, 18);
@@ -83,21 +88,31 @@
             // 
             // btnGuardarCambios
             // 
-            this.btnGuardarCambios.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnGuardarCambios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnGuardarCambios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
-            this.btnGuardarCambios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnGuardarCambios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGuardarCambios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnGuardarCambios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarCambios.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(86, 343);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(86, 341);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
             this.btnGuardarCambios.Size = new System.Drawing.Size(129, 28);
             this.btnGuardarCambios.TabIndex = 13;
             this.btnGuardarCambios.Text = "Guardar Cambios";
             this.btnGuardarCambios.UseVisualStyleBackColor = false;
+            // 
+            // picbxLogoFrmRecuperarCuenta
+            // 
+            this.picbxLogoFrmRecuperarCuenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoFrmRecuperarCuenta.BackgroundImage")));
+            this.picbxLogoFrmRecuperarCuenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(104, 23);
+            this.picbxLogoFrmRecuperarCuenta.Name = "picbxLogoFrmRecuperarCuenta";
+            this.picbxLogoFrmRecuperarCuenta.Size = new System.Drawing.Size(100, 50);
+            this.picbxLogoFrmRecuperarCuenta.TabIndex = 14;
+            this.picbxLogoFrmRecuperarCuenta.TabStop = false;
             // 
             // frmCambiarContrasena
             // 
@@ -105,6 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 450);
+            this.Controls.Add(this.picbxLogoFrmRecuperarCuenta);
             this.Controls.Add(this.btnGuardarCambios);
             this.Controls.Add(this.lblConfirmarContrasena);
             this.Controls.Add(this.txtConfirmarContrasena);
@@ -114,6 +130,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCambiarContrasena";
             this.Text = "North Pearl";
+            ((System.ComponentModel.ISupportInitialize)(this.picbxLogoFrmRecuperarCuenta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,5 +144,6 @@
         private Label lblConfirmarContrasena;
         private TextBox txtConfirmarContrasena;
         private Button btnGuardarCambios;
+        private PictureBox picbxLogoFrmRecuperarCuenta;
     }
 }

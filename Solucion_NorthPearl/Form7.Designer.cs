@@ -54,6 +54,7 @@
             // 
             this.lblMiCuenta.AutoSize = true;
             this.lblMiCuenta.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMiCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblMiCuenta.Location = new System.Drawing.Point(108, 138);
             this.lblMiCuenta.Name = "lblMiCuenta";
             this.lblMiCuenta.Size = new System.Drawing.Size(85, 21);
@@ -63,13 +64,13 @@
             // btnSalirFrm2
             // 
             this.btnSalirFrm2.BackColor = System.Drawing.Color.White;
-            this.btnSalirFrm2.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSalirFrm2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnSalirFrm2.FlatAppearance.BorderSize = 2;
-            this.btnSalirFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnSalirFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSalirFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnSalirFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnSalirFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalirFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalirFrm2.ForeColor = System.Drawing.Color.Black;
+            this.btnSalirFrm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnSalirFrm2.Location = new System.Drawing.Point(101, 353);
             this.btnSalirFrm2.Name = "btnSalirFrm2";
             this.btnSalirFrm2.Size = new System.Drawing.Size(97, 28);
@@ -79,14 +80,14 @@
             // 
             // btnCambiarContraseña
             // 
-            this.btnCambiarContraseña.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnCambiarContraseña.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCambiarContraseña.BackColor = System.Drawing.Color.White;
+            this.btnCambiarContraseña.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCambiarContraseña.FlatAppearance.BorderSize = 2;
-            this.btnCambiarContraseña.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnCambiarContraseña.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCambiarContraseña.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnCambiarContraseña.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnCambiarContraseña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCambiarContraseña.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCambiarContraseña.ForeColor = System.Drawing.Color.White;
+            this.btnCambiarContraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCambiarContraseña.Location = new System.Drawing.Point(73, 233);
             this.btnCambiarContraseña.Name = "btnCambiarContraseña";
             this.btnCambiarContraseña.Size = new System.Drawing.Size(154, 31);
@@ -96,14 +97,14 @@
             // 
             // btnEditarCuenta
             // 
-            this.btnEditarCuenta.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnEditarCuenta.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEditarCuenta.BackColor = System.Drawing.Color.White;
+            this.btnEditarCuenta.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnEditarCuenta.FlatAppearance.BorderSize = 2;
-            this.btnEditarCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnEditarCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEditarCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnEditarCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnEditarCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEditarCuenta.ForeColor = System.Drawing.Color.White;
+            this.btnEditarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnEditarCuenta.Location = new System.Drawing.Point(73, 186);
             this.btnEditarCuenta.Name = "btnEditarCuenta";
             this.btnEditarCuenta.Size = new System.Drawing.Size(154, 29);
@@ -114,14 +115,14 @@
             // 
             // btnCerrarSesión
             // 
-            this.btnCerrarSesión.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnCerrarSesión.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCerrarSesión.BackColor = System.Drawing.Color.White;
+            this.btnCerrarSesión.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCerrarSesión.FlatAppearance.BorderSize = 2;
-            this.btnCerrarSesión.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnCerrarSesión.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCerrarSesión.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnCerrarSesión.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnCerrarSesión.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesión.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCerrarSesión.ForeColor = System.Drawing.Color.White;
+            this.btnCerrarSesión.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCerrarSesión.Location = new System.Drawing.Point(73, 279);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
             this.btnCerrarSesión.Size = new System.Drawing.Size(154, 30);

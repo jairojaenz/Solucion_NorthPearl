@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNorthPearl));
-            this.llbIniciarSesion = new System.Windows.Forms.Label();
-            this.picbxUsuario = new System.Windows.Forms.PictureBox();
             this.picbxLogoApp = new System.Windows.Forms.PictureBox();
             this.lblCorreo = new System.Windows.Forms.Label();
             this.txtCorreo = new System.Windows.Forms.TextBox();
@@ -44,39 +42,18 @@
             this.lblÓ = new System.Windows.Forms.Label();
             this.picbxFacebook = new System.Windows.Forms.PictureBox();
             this.picbxGoogle = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picbxUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogoApp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxFacebook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxGoogle)).BeginInit();
             this.SuspendLayout();
             // 
-            // llbIniciarSesion
-            // 
-            this.llbIniciarSesion.AutoSize = true;
-            this.llbIniciarSesion.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.llbIniciarSesion.Location = new System.Drawing.Point(87, 9);
-            this.llbIniciarSesion.Name = "llbIniciarSesion";
-            this.llbIniciarSesion.Size = new System.Drawing.Size(133, 26);
-            this.llbIniciarSesion.TabIndex = 0;
-            this.llbIniciarSesion.Text = "Iniciar Sesión";
-            // 
-            // picbxUsuario
-            // 
-            this.picbxUsuario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxUsuario.BackgroundImage")));
-            this.picbxUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picbxUsuario.Location = new System.Drawing.Point(30, 57);
-            this.picbxUsuario.Name = "picbxUsuario";
-            this.picbxUsuario.Size = new System.Drawing.Size(100, 50);
-            this.picbxUsuario.TabIndex = 1;
-            this.picbxUsuario.TabStop = false;
-            // 
             // picbxLogoApp
             // 
             this.picbxLogoApp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoApp.BackgroundImage")));
             this.picbxLogoApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogoApp.Location = new System.Drawing.Point(172, 57);
+            this.picbxLogoApp.Location = new System.Drawing.Point(68, 21);
             this.picbxLogoApp.Name = "picbxLogoApp";
-            this.picbxLogoApp.Size = new System.Drawing.Size(100, 50);
+            this.picbxLogoApp.Size = new System.Drawing.Size(164, 111);
             this.picbxLogoApp.TabIndex = 2;
             this.picbxLogoApp.TabStop = false;
             // 
@@ -84,6 +61,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblCorreo.Location = new System.Drawing.Point(30, 154);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(50, 18);
@@ -110,6 +88,7 @@
             // 
             this.llbContrasena.AutoSize = true;
             this.llbContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.llbContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.llbContrasena.Location = new System.Drawing.Point(30, 207);
             this.llbContrasena.Name = "llbContrasena";
             this.llbContrasena.Size = new System.Drawing.Size(77, 18);
@@ -120,6 +99,7 @@
             // 
             this.lblRecupContra.AutoSize = true;
             this.lblRecupContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRecupContra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblRecupContra.Location = new System.Drawing.Point(44, 268);
             this.lblRecupContra.Name = "lblRecupContra";
             this.lblRecupContra.Size = new System.Drawing.Size(155, 18);
@@ -128,10 +108,11 @@
             // 
             // linklblRecuperar
             // 
+            this.linklblRecuperar.ActiveLinkColor = System.Drawing.Color.Green;
             this.linklblRecuperar.AutoSize = true;
             this.linklblRecuperar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linklblRecuperar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linklblRecuperar.LinkColor = System.Drawing.Color.DodgerBlue;
+            this.linklblRecuperar.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.linklblRecuperar.Location = new System.Drawing.Point(192, 268);
             this.linklblRecuperar.Name = "linklblRecuperar";
             this.linklblRecuperar.Size = new System.Drawing.Size(113, 18);
@@ -143,15 +124,15 @@
             // 
             // btnCrearCuenta
             // 
-            this.btnCrearCuenta.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCrearCuenta.BackColor = System.Drawing.Color.White;
             this.btnCrearCuenta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCrearCuenta.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearCuenta.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCrearCuenta.FlatAppearance.BorderSize = 2;
-            this.btnCrearCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnCrearCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearCuenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnCrearCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
+            this.btnCrearCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCrearCuenta.Location = new System.Drawing.Point(28, 307);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
             this.btnCrearCuenta.Size = new System.Drawing.Size(102, 28);
@@ -162,11 +143,12 @@
             // 
             // btnIniciarSesion
             // 
-            this.btnIniciarSesion.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnIniciarSesion.FlatAppearance.BorderSize = 2;
-            this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnIniciarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnIniciarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciarSesion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnIniciarSesion.ForeColor = System.Drawing.Color.White;
@@ -238,13 +220,10 @@
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.picbxLogoApp);
-            this.Controls.Add(this.picbxUsuario);
-            this.Controls.Add(this.llbIniciarSesion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmNorthPearl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Noth Pearl";
-            ((System.ComponentModel.ISupportInitialize)(this.picbxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogoApp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxFacebook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxGoogle)).EndInit();
@@ -254,9 +233,6 @@
         }
 
         #endregion
-
-        private Label llbIniciarSesion;
-        private PictureBox picbxUsuario;
         private PictureBox picbxLogoApp;
         private Label lblCorreo;
         private TextBox txtCorreo;

@@ -50,6 +50,7 @@
             // 
             this.lblCrearCuenta.AutoSize = true;
             this.lblCrearCuenta.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCrearCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblCrearCuenta.Location = new System.Drawing.Point(88, 55);
             this.lblCrearCuenta.Name = "lblCrearCuenta";
             this.lblCrearCuenta.Size = new System.Drawing.Size(132, 26);
@@ -60,6 +61,7 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblNombre.Location = new System.Drawing.Point(76, 117);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(58, 18);
@@ -84,6 +86,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblCorreo.Location = new System.Drawing.Point(76, 193);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(49, 18);
@@ -102,6 +105,7 @@
             // 
             this.lblContrasena.AutoSize = true;
             this.lblContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblContrasena.Location = new System.Drawing.Point(76, 268);
             this.lblContrasena.Name = "lblContrasena";
             this.lblContrasena.Size = new System.Drawing.Size(77, 18);
@@ -112,6 +116,7 @@
             // 
             this.lblNacionalidad.AutoSize = true;
             this.lblNacionalidad.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNacionalidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblNacionalidad.Location = new System.Drawing.Point(76, 331);
             this.lblNacionalidad.Name = "lblNacionalidad";
             this.lblNacionalidad.Size = new System.Drawing.Size(89, 18);
@@ -122,6 +127,7 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblTelefono.Location = new System.Drawing.Point(76, 407);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(57, 18);
@@ -388,11 +394,12 @@
             // 
             // btnCrearFrm2
             // 
-            this.btnCrearFrm2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnCrearFrm2.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearFrm2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCrearFrm2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCrearFrm2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCrearFrm2.FlatAppearance.BorderSize = 2;
-            this.btnCrearFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnCrearFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCrearFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnCrearFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnCrearFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCrearFrm2.ForeColor = System.Drawing.Color.White;
@@ -408,7 +415,7 @@
             // 
             this.picbxLogofrm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogofrm2.BackgroundImage")));
             this.picbxLogofrm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picbxLogofrm2.Location = new System.Drawing.Point(226, 9);
+            this.picbxLogofrm2.Location = new System.Drawing.Point(204, 2);
             this.picbxLogofrm2.Name = "picbxLogofrm2";
             this.picbxLogofrm2.Size = new System.Drawing.Size(100, 50);
             this.picbxLogofrm2.TabIndex = 13;

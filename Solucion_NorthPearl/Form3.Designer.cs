@@ -53,6 +53,7 @@
             // 
             this.lblRecuperarCuenta.AutoSize = true;
             this.lblRecuperarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRecuperarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblRecuperarCuenta.Location = new System.Drawing.Point(97, 72);
             this.lblRecuperarCuenta.Name = "lblRecuperarCuenta";
             this.lblRecuperarCuenta.Size = new System.Drawing.Size(116, 18);
@@ -83,6 +84,7 @@
             // 
             this.rbtnCorreo.AutoSize = true;
             this.rbtnCorreo.Checked = true;
+            this.rbtnCorreo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbtnCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbtnCorreo.Location = new System.Drawing.Point(9, 22);
             this.rbtnCorreo.Name = "rbtnCorreo";
@@ -103,6 +105,7 @@
             // 
             this.lblEscrbirCorreo.AutoSize = true;
             this.lblEscrbirCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEscrbirCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblEscrbirCorreo.Location = new System.Drawing.Point(60, 189);
             this.lblEscrbirCorreo.Name = "lblEscrbirCorreo";
             this.lblEscrbirCorreo.Size = new System.Drawing.Size(111, 18);
@@ -134,6 +137,7 @@
             // 
             this.lblTlfnFrmRecup.AutoSize = true;
             this.lblTlfnFrmRecup.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTlfnFrmRecup.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblTlfnFrmRecup.Location = new System.Drawing.Point(62, 243);
             this.lblTlfnFrmRecup.Name = "lblTlfnFrmRecup";
             this.lblTlfnFrmRecup.Size = new System.Drawing.Size(125, 18);
@@ -149,11 +153,11 @@
             // 
             // btnEnviarCodigo
             // 
-            this.btnEnviarCodigo.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnEnviarCodigo.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEnviarCodigo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnEnviarCodigo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnEnviarCodigo.FlatAppearance.BorderSize = 2;
-            this.btnEnviarCodigo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnEnviarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEnviarCodigo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnEnviarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnEnviarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnviarCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEnviarCodigo.ForeColor = System.Drawing.Color.White;
@@ -176,6 +180,7 @@
             // 
             this.lblIngreseCodigo.AutoSize = true;
             this.lblIngreseCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIngreseCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblIngreseCodigo.Location = new System.Drawing.Point(60, 341);
             this.lblIngreseCodigo.Name = "lblIngreseCodigo";
             this.lblIngreseCodigo.Size = new System.Drawing.Size(113, 18);
@@ -184,11 +189,11 @@
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnConfirmar.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnConfirmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnConfirmar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConfirmar.FlatAppearance.BorderSize = 2;
-            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnConfirmar.ForeColor = System.Drawing.Color.White;
@@ -201,11 +206,11 @@
             // 
             // btnCambiarContra
             // 
-            this.btnCambiarContra.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnCambiarContra.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCambiarContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCambiarContra.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCambiarContra.FlatAppearance.BorderSize = 2;
-            this.btnCambiarContra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnCambiarContra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCambiarContra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnCambiarContra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnCambiarContra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCambiarContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCambiarContra.ForeColor = System.Drawing.Color.White;
@@ -220,13 +225,13 @@
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.White;
-            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCancelar.FlatAppearance.BorderSize = 2;
-            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.ForeColor = System.Drawing.Color.Black;
+            this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCancelar.Location = new System.Drawing.Point(106, 491);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(109, 28);

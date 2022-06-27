@@ -56,6 +56,7 @@
             // 
             this.lblEditarCuenta.AutoSize = true;
             this.lblEditarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEditarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblEditarCuenta.Location = new System.Drawing.Point(76, 46);
             this.lblEditarCuenta.Name = "lblEditarCuenta";
             this.lblEditarCuenta.Size = new System.Drawing.Size(137, 26);
@@ -73,6 +74,7 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblNombre.Location = new System.Drawing.Point(60, 104);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(58, 18);
@@ -346,6 +348,7 @@
             // 
             this.lblNacionalidad.AutoSize = true;
             this.lblNacionalidad.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNacionalidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblNacionalidad.Location = new System.Drawing.Point(60, 181);
             this.lblNacionalidad.Name = "lblNacionalidad";
             this.lblNacionalidad.Size = new System.Drawing.Size(89, 18);
@@ -614,6 +617,7 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblTelefono.Location = new System.Drawing.Point(60, 271);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(57, 18);
@@ -622,11 +626,11 @@
             // 
             // btnGuarardarCambiosFrm2
             // 
-            this.btnGuarardarCambiosFrm2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnGuarardarCambiosFrm2.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGuarardarCambiosFrm2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnGuarardarCambiosFrm2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnGuarardarCambiosFrm2.FlatAppearance.BorderSize = 2;
-            this.btnGuarardarCambiosFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
-            this.btnGuarardarCambiosFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGuarardarCambiosFrm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnGuarardarCambiosFrm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
             this.btnGuarardarCambiosFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuarardarCambiosFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuarardarCambiosFrm2.ForeColor = System.Drawing.Color.White;
