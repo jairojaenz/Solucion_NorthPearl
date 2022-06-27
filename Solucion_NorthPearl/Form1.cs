@@ -12,14 +12,18 @@ namespace Solucion_NorthPearl
 {
     public partial class frmNorthPearl : Form
     {
-       static bool encontrado;
-        static StreamReader lectura;
-        static string cadena;
-        static string[] registro = new string[4];
-        
+        string user_verificar;
+        string contra_verificar;
         public frmNorthPearl()
         {
             InitializeComponent();
+        }
+
+        public void pantaPrincipal()
+        {
+            frmPantallaPrincipal principal = new frmPantallaPrincipal();
+            principal.Show();
+            this.Hide();
         }
 
         private void btnCrearCuenta_Click(object sender, EventArgs e)
@@ -36,31 +40,41 @@ namespace Solucion_NorthPearl
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
-            encontrado = false;
-            if (txtCorreo.Text != "" && txtContrasena.Text != "")
+            try
             {
-                lectura = File.OpenText("usuarios.txt");
-                cadena = lectura.ReadLine();               
-                    registro = cadena.Split(',');
-                if (registro[0].Trim().Equals(txtCorreo.Text) && registro[1].Trim().Equals(txtContrasena.Text))
+                user_verificar = txtCorreo.Text;
+                contra_verificar = txtContrasena.Text;
+                StreamReader leer;
+                leer = File.OpenText("usuarios.txt");
+                string cadena;
+                string[] arreglo = new string[2];
+                char[] separador = { ',' };
+                bool autorizado = false;
+                cadena = leer.ReadLine();
+                while (cadena != null && autorizado == false)
                 {
-                    MessageBox.Show("usuario encontrado", "iniciar sesion", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    encontrado = true;
-                    this.Hide();
-                    frmPantallaPrincipal forma5 = new frmPantallaPrincipal();
-                    forma5.ShowDialog();
-
-                    cadena = lectura.ReadLine();
+                    arreglo = cadena.Split(separador);
+                    if (arreglo[0].Trim().Equals(user_verificar) && arreglo[1].Trim().Equals(contra_verificar))
+                    {
+                        MessageBox.Show("Usuario y contraseña correctos","sesion iniciada",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        pantaPrincipal();
+                        autorizado = true;
+                    }
+                    else
+                    {
+                        cadena = leer.ReadLine();
+                    }
                 }
-                else
+                if (autorizado == false)
                 {
-                    MessageBox.Show("usuario no encontrado", "aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Usuario y/o contraseña incorrectos","error",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 }
             }
-            else
+            catch (Exception error)
             {
-                MessageBox.Show("Faltan Datos", "aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                MessageBox.Show("Error: "+error);
+                
+            }  
         }
     }
 }
