@@ -176,6 +176,7 @@
             // 
             // picImagenSitio
             // 
+            this.picImagenSitio.BackColor = System.Drawing.Color.Transparent;
             this.picImagenSitio.Location = new System.Drawing.Point(0, 3);
             this.picImagenSitio.Name = "picImagenSitio";
             this.picImagenSitio.Size = new System.Drawing.Size(303, 130);
