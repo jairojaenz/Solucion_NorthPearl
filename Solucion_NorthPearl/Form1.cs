@@ -54,7 +54,7 @@ namespace Solucion_NorthPearl
                 while (cadena != null && autorizado == false)
                 {
                     arreglo = cadena.Split(separador);
-                    if (arreglo[0].Trim().Equals(user_verificar) && arreglo[1].Trim().Equals(contra_verificar))
+                    if (arreglo[1].Trim().Equals(user_verificar) && arreglo[2].Trim().Equals(contra_verificar))
                     {
                         MessageBox.Show("Usuario y contraseña correctos","sesion iniciada",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         pantaPrincipal();

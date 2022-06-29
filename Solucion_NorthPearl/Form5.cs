@@ -12,11 +12,18 @@ namespace Solucion_NorthPearl
 {
     public partial class frmPantallaPrincipal : Form
     {
+        string busqueda;
         public frmPantallaPrincipal()
         {
             InitializeComponent();
         }
 
+        public void pantaPrincipal()
+        {
+            frmPantallaPrincipal principal = new frmPantallaPrincipal();
+            principal.Show();
+            this.Hide();
+        }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -48,5 +55,47 @@ namespace Solucion_NorthPearl
             miforma4.Show();
             this.Hide();
         }
+
+        private void btnBuscarFrm5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                busqueda = btnBuscarFrm5.Text;
+                
+                StreamReader leer;
+                leer = File.OpenText("datos.txt");
+                string cadena;
+                string[] arreglo = new string[2];
+                char[] separador = { ',' };
+                bool autorizado = false;
+                cadena = leer.ReadLine();
+                while (cadena != null && autorizado == false)
+                {
+                    arreglo = cadena.Split(separador);
+                    if (arreglo[1].Trim().Equals(busqueda))
+                    {
+                       
+                       
+                        autorizado = true;
+                    }
+                    else
+                    {
+                        cadena = leer.ReadLine();
+                    }
+                }
+                if (autorizado == false)
+                {
+                    MessageBox.Show("Sitio no encontrado","Error" ,MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("Error: " + error);
+
+            }
+        }
     }
 }
+        
+    
+
