@@ -20,6 +20,7 @@ namespace Solucion_NorthPearl
 
         public void pantaPrincipal()
         {
+
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -58,9 +59,8 @@ namespace Solucion_NorthPearl
             try
             {
                 busqueda = btnBuscarFrm5.Text;
-                
                 StreamReader leer;
-                leer = File.OpenText("datos.txt");
+                leer = File.OpenText("busqueda.txt");
                 string cadena;
                 string[] arreglo = new string[2];
                 char[] separador = { ',' };
@@ -69,10 +69,10 @@ namespace Solucion_NorthPearl
                 while (cadena != null && autorizado == false)
                 {
                     arreglo = cadena.Split(separador);
-                    if (arreglo[1].Trim().Equals(busqueda))
+                    if (arreglo[0].Trim().Equals(textBox1.Text))
                     {
-                       
-                       
+                        frmRecuperar miforma2 = new frmRecuperar();
+                        miforma2.ShowDialog();
                         autorizado = true;
                     }
                     else
@@ -88,7 +88,6 @@ namespace Solucion_NorthPearl
             catch (Exception error)
             {
                 MessageBox.Show("Error: " + error);
-
             }
         }
     }

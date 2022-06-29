@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net6.0-windows\busqueda.txt" />
     <Content Include="bin\Debug\net6.0-windows\usuarios.txt" />
   </ItemGroup>
 
