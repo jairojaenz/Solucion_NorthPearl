@@ -53,6 +53,9 @@
             this.picbxUsuario = new System.Windows.Forms.PictureBox();
             this.picbxMenu = new System.Windows.Forms.PictureBox();
             this.picbxFlechaAbajo = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnBuscarFrm5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCerroApante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCastilloCacao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCascadaLuna)).BeginInit();
@@ -66,13 +69,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbxUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxFlechaAbajo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblLugarPreferido
             // 
             this.lblLugarPreferido.AutoSize = true;
             this.lblLugarPreferido.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblLugarPreferido.Location = new System.Drawing.Point(31, 56);
+            this.lblLugarPreferido.Location = new System.Drawing.Point(14, 67);
             this.lblLugarPreferido.Name = "lblLugarPreferido";
             this.lblLugarPreferido.Size = new System.Drawing.Size(154, 18);
             this.lblLugarPreferido.TabIndex = 0;
@@ -175,11 +179,11 @@
             // 
             this.lblDestacado.AutoSize = true;
             this.lblDestacado.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDestacado.Location = new System.Drawing.Point(31, 84);
+            this.lblDestacado.Location = new System.Drawing.Point(31, 92);
             this.lblDestacado.Name = "lblDestacado";
-            this.lblDestacado.Size = new System.Drawing.Size(162, 18);
+            this.lblDestacado.Size = new System.Drawing.Size(12, 18);
             this.lblDestacado.TabIndex = 10;
-            this.lblDestacado.Text = "LO MÁS DESTACADO...";
+            this.lblDestacado.Text = "`";
             // 
             // lblCerroApante
             // 
@@ -313,12 +317,48 @@
             this.picbxFlechaAbajo.TabIndex = 23;
             this.picbxFlechaAbajo.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(58, 463);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(165, 23);
+            this.textBox1.TabIndex = 24;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 463);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 23);
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnBuscarFrm5
+            // 
+            this.btnBuscarFrm5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnBuscarFrm5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnBuscarFrm5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscarFrm5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnBuscarFrm5.ForeColor = System.Drawing.Color.White;
+            this.btnBuscarFrm5.Location = new System.Drawing.Point(230, 463);
+            this.btnBuscarFrm5.Name = "btnBuscarFrm5";
+            this.btnBuscarFrm5.Size = new System.Drawing.Size(62, 28);
+            this.btnBuscarFrm5.TabIndex = 26;
+            this.btnBuscarFrm5.Text = "Buscar";
+            this.btnBuscarFrm5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnBuscarFrm5.UseVisualStyleBackColor = false;
+            this.btnBuscarFrm5.Click += new System.EventHandler(this.btnBuscarFrm5_Click);
+            // 
             // frmPantallaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(304, 452);
+            this.ClientSize = new System.Drawing.Size(304, 498);
+            this.Controls.Add(this.btnBuscarFrm5);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.picbxFlechaAbajo);
             this.Controls.Add(this.picbxMenu);
             this.Controls.Add(this.picbxUsuario);
@@ -359,6 +399,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxFlechaAbajo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,5 +431,8 @@
         private PictureBox picbxUsuario;
         private PictureBox picbxMenu;
         private PictureBox picbxFlechaAbajo;
+        private TextBox textBox1;
+        private PictureBox pictureBox1;
+        private Button btnBuscarFrm5;
     }
 }

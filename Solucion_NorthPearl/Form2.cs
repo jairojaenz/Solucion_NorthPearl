@@ -33,7 +33,7 @@ namespace Solucion_NorthPearl
         {
             encontrado = false;
 
-            if (txtNombre.Text != "" && txtContrasena.Text != "")
+            if (txtNombre.Text != "" && txtContrasena.Text != "" && txtCorreo.Text != "" && comboBox1.Text != "" && comboBox1.Text != "" && cbbxEntrada.Text != "" && txtTelefono.Text != "")
             {
                 lectura = File.OpenText("usuarios.txt");
                 txtNombre.Text = txtNombre.Text.ToUpper();
@@ -57,7 +57,7 @@ namespace Solucion_NorthPearl
                 {
                     escritura = File.AppendText("usuarios.txt");
                     txtNombre.Text = txtNombre.Text.ToUpper();
-                    escritura.WriteLine(txtNombre.Text + ',' + txtContrasena.Text);
+                    escritura.WriteLine(txtNombre.Text + ',' + txtCorreo.Text + ',' + txtContrasena.Text + ',' + comboBox1.Text + ',' + cbbxEntrada.Text + ',' + txtTelefono.Text);
                     MessageBox.Show("Registro almacenado", "aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     escritura.Close();
                 }
