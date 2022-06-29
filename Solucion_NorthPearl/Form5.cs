@@ -20,9 +20,6 @@ namespace Solucion_NorthPearl
 
         public void pantaPrincipal()
         {
-            frmPantallaPrincipal principal = new frmPantallaPrincipal();
-            principal.Show();
-            this.Hide();
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
