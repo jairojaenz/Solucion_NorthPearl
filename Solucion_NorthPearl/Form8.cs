@@ -12,10 +12,24 @@ namespace Solucion_NorthPearl
 {
     public partial class FrmInfoSitio : Form
     {
-        public FrmInfoSitio()
+        private string ubicacion;
+        private string nomdueno;
+        private string numtelefono;
+        private string correo;
+        private string horarioatencion;
+        private string costoservicio;
+
+        public FrmInfoSitio(string datos)
         {
             InitializeComponent();
+            lblNomSitio.Text = datos;
+            
+            
         }
+        
+        
+
+        
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -43,6 +57,65 @@ namespace Solucion_NorthPearl
         }
 
         private void txbxCostoServicio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbxNombreSitio_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+        public string Ubicacion
+        {
+            set
+            {
+                ubicacion = value;
+                lblUbicacion.Text = ubicacion;
+            }
+        }
+        public string Nomdueno
+        {
+            set
+            {
+                nomdueno = value;
+               lblNomDueno.Text = nomdueno;
+            }
+        }
+        public string Numerotelefono
+        {
+            set
+            {
+                numtelefono = value;
+                lblNumtelefono.Text=numtelefono;
+            }
+        }
+        public string Correo
+        {
+            set
+            {
+                correo = value;
+                lblCorreoE.Text = correo;
+            }
+        }
+        public string Horarioatencion
+        {
+            set
+            {
+                horarioatencion = value;
+                lblHoraAten.Text = horarioatencion;
+            }
+        }
+        public string Costoservicio
+        {
+            set
+            {
+                costoservicio = value;
+                lblCosto.Text = costoservicio;
+            }
+        }
+
+
+        private void lblNomSitio_Click(object sender, EventArgs e)
         {
 
         }

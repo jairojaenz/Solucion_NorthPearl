@@ -28,77 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInfoSitio));
-            this.txbxNombreSitio = new System.Windows.Forms.TextBox();
-            this.txbxNumeroTelefon = new System.Windows.Forms.TextBox();
-            this.txbxCorreo = new System.Windows.Forms.TextBox();
-            this.txbxNombreDueño = new System.Windows.Forms.TextBox();
-            this.txbxUbi = new System.Windows.Forms.TextBox();
-            this.txbxHorarioAtencion = new System.Windows.Forms.TextBox();
-            this.txbxCostoServicio = new System.Windows.Forms.TextBox();
             this.btnOk = new System.Windows.Forms.Button();
             this.lblNombreSitio = new System.Windows.Forms.Label();
             this.lblUbi = new System.Windows.Forms.Label();
-            this.lblNombreDuenño = new System.Windows.Forms.Label();
+            this.lblNombreDueno = new System.Windows.Forms.Label();
             this.lblHorarioAtención = new System.Windows.Forms.Label();
             this.lblCostoServicio = new System.Windows.Forms.Label();
             this.lblNumeroTelefono = new System.Windows.Forms.Label();
             this.lblCorreo = new System.Windows.Forms.Label();
             this.picImagenSitio = new System.Windows.Forms.PictureBox();
+            this.lblNomSitio = new System.Windows.Forms.Label();
+            this.lblUbicacion = new System.Windows.Forms.Label();
+            this.lblNomDueno = new System.Windows.Forms.Label();
+            this.lblNumtelefono = new System.Windows.Forms.Label();
+            this.lblCorreoE = new System.Windows.Forms.Label();
+            this.lblHoraAten = new System.Windows.Forms.Label();
+            this.lblCosto = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picImagenSitio)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txbxNombreSitio
-            // 
-            this.txbxNombreSitio.Location = new System.Drawing.Point(122, 148);
-            this.txbxNombreSitio.Name = "txbxNombreSitio";
-            this.txbxNombreSitio.Size = new System.Drawing.Size(170, 23);
-            this.txbxNombreSitio.TabIndex = 0;
-            // 
-            // txbxNumeroTelefon
-            // 
-            this.txbxNumeroTelefon.Location = new System.Drawing.Point(122, 269);
-            this.txbxNumeroTelefon.Name = "txbxNumeroTelefon";
-            this.txbxNumeroTelefon.Size = new System.Drawing.Size(170, 23);
-            this.txbxNumeroTelefon.TabIndex = 1;
-            this.txbxNumeroTelefon.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // txbxCorreo
-            // 
-            this.txbxCorreo.Location = new System.Drawing.Point(122, 310);
-            this.txbxCorreo.Name = "txbxCorreo";
-            this.txbxCorreo.Size = new System.Drawing.Size(170, 23);
-            this.txbxCorreo.TabIndex = 2;
-            this.txbxCorreo.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // txbxNombreDueño
-            // 
-            this.txbxNombreDueño.Location = new System.Drawing.Point(122, 235);
-            this.txbxNombreDueño.Name = "txbxNombreDueño";
-            this.txbxNombreDueño.Size = new System.Drawing.Size(170, 23);
-            this.txbxNombreDueño.TabIndex = 3;
-            // 
-            // txbxUbi
-            // 
-            this.txbxUbi.Location = new System.Drawing.Point(122, 189);
-            this.txbxUbi.Name = "txbxUbi";
-            this.txbxUbi.Size = new System.Drawing.Size(170, 23);
-            this.txbxUbi.TabIndex = 4;
-            // 
-            // txbxHorarioAtencion
-            // 
-            this.txbxHorarioAtencion.Location = new System.Drawing.Point(122, 346);
-            this.txbxHorarioAtencion.Name = "txbxHorarioAtencion";
-            this.txbxHorarioAtencion.Size = new System.Drawing.Size(170, 23);
-            this.txbxHorarioAtencion.TabIndex = 5;
-            // 
-            // txbxCostoServicio
-            // 
-            this.txbxCostoServicio.Location = new System.Drawing.Point(122, 382);
-            this.txbxCostoServicio.Name = "txbxCostoServicio";
-            this.txbxCostoServicio.Size = new System.Drawing.Size(170, 23);
-            this.txbxCostoServicio.TabIndex = 6;
-            this.txbxCostoServicio.TextChanged += new System.EventHandler(this.txbxCostoServicio_TextChanged);
             // 
             // btnOk
             // 
@@ -129,14 +76,14 @@
             this.lblUbi.TabIndex = 9;
             this.lblUbi.Text = "Ubicación del sitio:";
             // 
-            // lblNombreDuenño
+            // lblNombreDueno
             // 
-            this.lblNombreDuenño.AutoSize = true;
-            this.lblNombreDuenño.Location = new System.Drawing.Point(5, 240);
-            this.lblNombreDuenño.Name = "lblNombreDuenño";
-            this.lblNombreDuenño.Size = new System.Drawing.Size(110, 15);
-            this.lblNombreDuenño.TabIndex = 10;
-            this.lblNombreDuenño.Text = "Nombre del dueño:";
+            this.lblNombreDueno.AutoSize = true;
+            this.lblNombreDueno.Location = new System.Drawing.Point(4, 240);
+            this.lblNombreDueno.Name = "lblNombreDueno";
+            this.lblNombreDueno.Size = new System.Drawing.Size(110, 15);
+            this.lblNombreDueno.TabIndex = 10;
+            this.lblNombreDueno.Text = "Nombre del dueño:";
             // 
             // lblHorarioAtención
             // 
@@ -183,28 +130,91 @@
             this.picImagenSitio.TabIndex = 15;
             this.picImagenSitio.TabStop = false;
             // 
+            // lblNomSitio
+            // 
+            this.lblNomSitio.AutoSize = true;
+            this.lblNomSitio.Location = new System.Drawing.Point(120, 152);
+            this.lblNomSitio.Name = "lblNomSitio";
+            this.lblNomSitio.Size = new System.Drawing.Size(38, 15);
+            this.lblNomSitio.TabIndex = 16;
+            this.lblNomSitio.Text = "label1";
+            this.lblNomSitio.Click += new System.EventHandler(this.lblNomSitio_Click);
+            // 
+            // lblUbicacion
+            // 
+            this.lblUbicacion.AutoSize = true;
+            this.lblUbicacion.Location = new System.Drawing.Point(120, 193);
+            this.lblUbicacion.Name = "lblUbicacion";
+            this.lblUbicacion.Size = new System.Drawing.Size(38, 15);
+            this.lblUbicacion.TabIndex = 17;
+            this.lblUbicacion.Text = "label2";
+            // 
+            // lblNomDueno
+            // 
+            this.lblNomDueno.AutoSize = true;
+            this.lblNomDueno.Location = new System.Drawing.Point(120, 239);
+            this.lblNomDueno.Name = "lblNomDueno";
+            this.lblNomDueno.Size = new System.Drawing.Size(38, 15);
+            this.lblNomDueno.TabIndex = 18;
+            this.lblNomDueno.Text = "label3";
+            // 
+            // lblNumtelefono
+            // 
+            this.lblNumtelefono.AutoSize = true;
+            this.lblNumtelefono.Location = new System.Drawing.Point(120, 274);
+            this.lblNumtelefono.Name = "lblNumtelefono";
+            this.lblNumtelefono.Size = new System.Drawing.Size(38, 15);
+            this.lblNumtelefono.TabIndex = 19;
+            this.lblNumtelefono.Text = "label4";
+            // 
+            // lblCorreoE
+            // 
+            this.lblCorreoE.AutoSize = true;
+            this.lblCorreoE.Location = new System.Drawing.Point(120, 316);
+            this.lblCorreoE.Name = "lblCorreoE";
+            this.lblCorreoE.Size = new System.Drawing.Size(38, 15);
+            this.lblCorreoE.TabIndex = 20;
+            this.lblCorreoE.Text = "label5";
+            // 
+            // lblHoraAten
+            // 
+            this.lblHoraAten.AutoSize = true;
+            this.lblHoraAten.Location = new System.Drawing.Point(120, 350);
+            this.lblHoraAten.Name = "lblHoraAten";
+            this.lblHoraAten.Size = new System.Drawing.Size(38, 15);
+            this.lblHoraAten.TabIndex = 21;
+            this.lblHoraAten.Text = "label6";
+            // 
+            // lblCosto
+            // 
+            this.lblCosto.AutoSize = true;
+            this.lblCosto.Location = new System.Drawing.Point(120, 385);
+            this.lblCosto.Name = "lblCosto";
+            this.lblCosto.Size = new System.Drawing.Size(38, 15);
+            this.lblCosto.TabIndex = 22;
+            this.lblCosto.Text = "label7";
+            // 
             // FrmInfoSitio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(304, 439);
+            this.Controls.Add(this.lblCosto);
+            this.Controls.Add(this.lblHoraAten);
+            this.Controls.Add(this.lblCorreoE);
+            this.Controls.Add(this.lblNumtelefono);
+            this.Controls.Add(this.lblNomDueno);
+            this.Controls.Add(this.lblUbicacion);
+            this.Controls.Add(this.lblNomSitio);
             this.Controls.Add(this.picImagenSitio);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.lblNumeroTelefono);
             this.Controls.Add(this.lblCostoServicio);
             this.Controls.Add(this.lblHorarioAtención);
-            this.Controls.Add(this.lblNombreDuenño);
+            this.Controls.Add(this.lblNombreDueno);
             this.Controls.Add(this.lblUbi);
             this.Controls.Add(this.lblNombreSitio);
             this.Controls.Add(this.btnOk);
-            this.Controls.Add(this.txbxCostoServicio);
-            this.Controls.Add(this.txbxHorarioAtencion);
-            this.Controls.Add(this.txbxUbi);
-            this.Controls.Add(this.txbxNombreDueño);
-            this.Controls.Add(this.txbxCorreo);
-            this.Controls.Add(this.txbxNumeroTelefon);
-            this.Controls.Add(this.txbxNombreSitio);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmInfoSitio";
             this.Text = "North Pearl";
             this.Load += new System.EventHandler(this.FrmInfoSitio_Load);
@@ -215,22 +225,21 @@
         }
 
         #endregion
-
-        private TextBox txbxNombreSitio;
-        private TextBox txbxNumeroTelefon;
-        private TextBox txbxCorreo;
-        private TextBox txbxNombreDueño;
-        private TextBox txbxUbi;
-        private TextBox txbxHorarioAtencion;
-        private TextBox txbxCostoServicio;
         private Button btnOk;
         private Label lblNombreSitio;
         private Label lblUbi;
-        private Label lblNombreDuenño;
+        private Label lblNombreDueno;
         private Label lblHorarioAtención;
         private Label lblCostoServicio;
         private Label lblNumeroTelefono;
         private Label lblCorreo;
         private PictureBox picImagenSitio;
+        private Label lblNomSitio;
+        private Label lblUbicacion;
+        private Label lblNomDueno;
+        private Label lblNumtelefono;
+        private Label lblCorreoE;
+        private Label lblHoraAten;
+        private Label lblCosto;
     }
 }

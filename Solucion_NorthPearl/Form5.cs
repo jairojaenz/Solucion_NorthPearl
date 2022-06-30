@@ -13,15 +13,11 @@ namespace Solucion_NorthPearl
     public partial class frmPantallaPrincipal : Form
     {
         string busqueda;
+
         public frmPantallaPrincipal()
         {
             InitializeComponent();
-        }
-
-        public void pantaPrincipal()
-        {
-
-        }
+        }       
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -71,8 +67,14 @@ namespace Solucion_NorthPearl
                     arreglo = cadena.Split(separador);
                     if (arreglo[0].Trim().Equals(textBox1.Text))
                     {
-                        frmRecuperar miforma2 = new frmRecuperar();
-                        miforma2.ShowDialog();
+                        FrmInfoSitio forma2 = new FrmInfoSitio(textBox1.Text);                    
+                        forma2.Ubicacion = arreglo[1];
+                        forma2.Nomdueno = arreglo[2];
+                        forma2.Numerotelefono = arreglo[3];
+                        forma2.Correo = arreglo[4];
+                        forma2.Horarioatencion = arreglo[5];
+                        forma2.Costoservicio = arreglo[6];
+                        forma2.ShowDialog();
                         autorizado = true;
                     }
                     else
