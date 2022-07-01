@@ -103,6 +103,7 @@
             this.btnGuardarCambios.TabIndex = 13;
             this.btnGuardarCambios.Text = "Guardar Cambios";
             this.btnGuardarCambios.UseVisualStyleBackColor = false;
+            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
             // 
             // picbxLogoFrmRecuperarCuenta
             // 

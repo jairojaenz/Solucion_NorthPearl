@@ -74,6 +74,7 @@ namespace Solucion_NorthPearl
                         forma2.Correo = arreglo[4];
                         forma2.Horarioatencion = arreglo[5];
                         forma2.Costoservicio = arreglo[6];
+                        this.Hide();
                         forma2.ShowDialog();
                         autorizado = true;
                     }

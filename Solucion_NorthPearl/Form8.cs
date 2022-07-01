@@ -119,5 +119,12 @@ namespace Solucion_NorthPearl
         {
 
         }
+
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            frmPantallaPrincipal principal = new frmPantallaPrincipal();
+            principal.Show();
+            this.Hide();
+        }
     }
 }

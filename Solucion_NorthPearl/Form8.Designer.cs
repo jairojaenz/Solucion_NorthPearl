@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInfoSitio));
             this.btnOk = new System.Windows.Forms.Button();
             this.lblNombreSitio = new System.Windows.Forms.Label();
             this.lblUbi = new System.Windows.Forms.Label();
@@ -57,67 +58,75 @@
             this.btnOk.TabIndex = 7;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = false;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // lblNombreSitio
             // 
             this.lblNombreSitio.AutoSize = true;
+            this.lblNombreSitio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombreSitio.Location = new System.Drawing.Point(13, 152);
             this.lblNombreSitio.Name = "lblNombreSitio";
-            this.lblNombreSitio.Size = new System.Drawing.Size(98, 15);
+            this.lblNombreSitio.Size = new System.Drawing.Size(102, 15);
             this.lblNombreSitio.TabIndex = 8;
             this.lblNombreSitio.Text = "Nombre del sitio:";
             // 
             // lblUbi
             // 
             this.lblUbi.AutoSize = true;
+            this.lblUbi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblUbi.Location = new System.Drawing.Point(11, 193);
             this.lblUbi.Name = "lblUbi";
-            this.lblUbi.Size = new System.Drawing.Size(107, 15);
+            this.lblUbi.Size = new System.Drawing.Size(110, 15);
             this.lblUbi.TabIndex = 9;
             this.lblUbi.Text = "Ubicación del sitio:";
             // 
             // lblNombreDueno
             // 
             this.lblNombreDueno.AutoSize = true;
+            this.lblNombreDueno.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombreDueno.Location = new System.Drawing.Point(4, 240);
             this.lblNombreDueno.Name = "lblNombreDueno";
-            this.lblNombreDueno.Size = new System.Drawing.Size(110, 15);
+            this.lblNombreDueno.Size = new System.Drawing.Size(114, 15);
             this.lblNombreDueno.TabIndex = 10;
             this.lblNombreDueno.Text = "Nombre del dueño:";
             // 
             // lblHorarioAtención
             // 
             this.lblHorarioAtención.AutoSize = true;
+            this.lblHorarioAtención.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblHorarioAtención.Location = new System.Drawing.Point(1, 350);
             this.lblHorarioAtención.Name = "lblHorarioAtención";
-            this.lblHorarioAtención.Size = new System.Drawing.Size(115, 15);
+            this.lblHorarioAtención.Size = new System.Drawing.Size(120, 15);
             this.lblHorarioAtención.TabIndex = 11;
             this.lblHorarioAtención.Text = "Horario de atención:";
             // 
             // lblCostoServicio
             // 
             this.lblCostoServicio.AutoSize = true;
-            this.lblCostoServicio.Location = new System.Drawing.Point(14, 385);
+            this.lblCostoServicio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCostoServicio.Location = new System.Drawing.Point(7, 385);
             this.lblCostoServicio.Name = "lblCostoServicio";
-            this.lblCostoServicio.Size = new System.Drawing.Size(100, 15);
+            this.lblCostoServicio.Size = new System.Drawing.Size(104, 15);
             this.lblCostoServicio.TabIndex = 12;
             this.lblCostoServicio.Text = "Costo de servicio:";
             // 
             // lblNumeroTelefono
             // 
             this.lblNumeroTelefono.AutoSize = true;
+            this.lblNumeroTelefono.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNumeroTelefono.Location = new System.Drawing.Point(2, 274);
             this.lblNumeroTelefono.Name = "lblNumeroTelefono";
-            this.lblNumeroTelefono.Size = new System.Drawing.Size(117, 15);
+            this.lblNumeroTelefono.Size = new System.Drawing.Size(124, 15);
             this.lblNumeroTelefono.TabIndex = 13;
             this.lblNumeroTelefono.Text = "Número de teléfono:";
             // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
+            this.lblCorreo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCorreo.Location = new System.Drawing.Point(12, 316);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(108, 15);
+            this.lblCorreo.Size = new System.Drawing.Size(114, 15);
             this.lblCorreo.TabIndex = 14;
             this.lblCorreo.Text = "Correo eléctronico:";
             // 
@@ -152,7 +161,7 @@
             // lblNomDueno
             // 
             this.lblNomDueno.AutoSize = true;
-            this.lblNomDueno.Location = new System.Drawing.Point(120, 239);
+            this.lblNomDueno.Location = new System.Drawing.Point(121, 239);
             this.lblNomDueno.Name = "lblNomDueno";
             this.lblNomDueno.Size = new System.Drawing.Size(38, 15);
             this.lblNomDueno.TabIndex = 18;
@@ -161,7 +170,7 @@
             // lblNumtelefono
             // 
             this.lblNumtelefono.AutoSize = true;
-            this.lblNumtelefono.Location = new System.Drawing.Point(120, 274);
+            this.lblNumtelefono.Location = new System.Drawing.Point(127, 274);
             this.lblNumtelefono.Name = "lblNumtelefono";
             this.lblNumtelefono.Size = new System.Drawing.Size(38, 15);
             this.lblNumtelefono.TabIndex = 19;
@@ -170,7 +179,7 @@
             // lblCorreoE
             // 
             this.lblCorreoE.AutoSize = true;
-            this.lblCorreoE.Location = new System.Drawing.Point(120, 316);
+            this.lblCorreoE.Location = new System.Drawing.Point(126, 316);
             this.lblCorreoE.Name = "lblCorreoE";
             this.lblCorreoE.Size = new System.Drawing.Size(38, 15);
             this.lblCorreoE.TabIndex = 20;
@@ -215,6 +224,7 @@
             this.Controls.Add(this.lblUbi);
             this.Controls.Add(this.lblNombreSitio);
             this.Controls.Add(this.btnOk);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmInfoSitio";
             this.Text = "North Pearl";
             this.Load += new System.EventHandler(this.FrmInfoSitio_Load);
