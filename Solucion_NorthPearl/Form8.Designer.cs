@@ -45,6 +45,7 @@
             this.lblCorreoE = new System.Windows.Forms.Label();
             this.lblHoraAten = new System.Windows.Forms.Label();
             this.lblCosto = new System.Windows.Forms.Label();
+            this.btnAmpliar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picImagenSitio)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,10 +65,10 @@
             // lblNombreSitio
             // 
             this.lblNombreSitio.AutoSize = true;
-            this.lblNombreSitio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombreSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombreSitio.Location = new System.Drawing.Point(12, 223);
             this.lblNombreSitio.Name = "lblNombreSitio";
-            this.lblNombreSitio.Size = new System.Drawing.Size(102, 15);
+            this.lblNombreSitio.Size = new System.Drawing.Size(101, 17);
             this.lblNombreSitio.TabIndex = 8;
             this.lblNombreSitio.Text = "Nombre del sitio:";
             this.lblNombreSitio.Click += new System.EventHandler(this.lblNombreSitio_Click);
@@ -75,60 +76,60 @@
             // lblUbi
             // 
             this.lblUbi.AutoSize = true;
-            this.lblUbi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblUbi.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblUbi.Location = new System.Drawing.Point(12, 264);
             this.lblUbi.Name = "lblUbi";
-            this.lblUbi.Size = new System.Drawing.Size(110, 15);
+            this.lblUbi.Size = new System.Drawing.Size(107, 17);
             this.lblUbi.TabIndex = 9;
             this.lblUbi.Text = "Ubicación del sitio:";
             // 
             // lblNombreDueno
             // 
             this.lblNombreDueno.AutoSize = true;
-            this.lblNombreDueno.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombreDueno.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombreDueno.Location = new System.Drawing.Point(12, 298);
             this.lblNombreDueno.Name = "lblNombreDueno";
-            this.lblNombreDueno.Size = new System.Drawing.Size(114, 15);
+            this.lblNombreDueno.Size = new System.Drawing.Size(113, 17);
             this.lblNombreDueno.TabIndex = 10;
             this.lblNombreDueno.Text = "Nombre del dueño:";
             // 
             // lblHorarioAtención
             // 
             this.lblHorarioAtención.AutoSize = true;
-            this.lblHorarioAtención.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblHorarioAtención.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblHorarioAtención.Location = new System.Drawing.Point(12, 421);
             this.lblHorarioAtención.Name = "lblHorarioAtención";
-            this.lblHorarioAtención.Size = new System.Drawing.Size(120, 15);
+            this.lblHorarioAtención.Size = new System.Drawing.Size(118, 17);
             this.lblHorarioAtención.TabIndex = 11;
             this.lblHorarioAtención.Text = "Horario de atención:";
             // 
             // lblCostoServicio
             // 
             this.lblCostoServicio.AutoSize = true;
-            this.lblCostoServicio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCostoServicio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCostoServicio.Location = new System.Drawing.Point(14, 456);
             this.lblCostoServicio.Name = "lblCostoServicio";
-            this.lblCostoServicio.Size = new System.Drawing.Size(104, 15);
+            this.lblCostoServicio.Size = new System.Drawing.Size(103, 17);
             this.lblCostoServicio.TabIndex = 12;
             this.lblCostoServicio.Text = "Costo de servicio:";
             // 
             // lblNumeroTelefono
             // 
             this.lblNumeroTelefono.AutoSize = true;
-            this.lblNumeroTelefono.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNumeroTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNumeroTelefono.Location = new System.Drawing.Point(12, 345);
             this.lblNumeroTelefono.Name = "lblNumeroTelefono";
-            this.lblNumeroTelefono.Size = new System.Drawing.Size(124, 15);
+            this.lblNumeroTelefono.Size = new System.Drawing.Size(121, 17);
             this.lblNumeroTelefono.TabIndex = 13;
             this.lblNumeroTelefono.Text = "Número de teléfono:";
             // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCorreo.Location = new System.Drawing.Point(14, 387);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(114, 15);
+            this.lblCorreo.Size = new System.Drawing.Size(111, 17);
             this.lblCorreo.TabIndex = 14;
             this.lblCorreo.Text = "Correo eléctronico:";
             // 
@@ -136,18 +137,19 @@
             // 
             this.picImagenSitio.BackColor = System.Drawing.Color.Transparent;
             this.picImagenSitio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picImagenSitio.Location = new System.Drawing.Point(3, 12);
+            this.picImagenSitio.Location = new System.Drawing.Point(3, -2);
             this.picImagenSitio.Name = "picImagenSitio";
-            this.picImagenSitio.Size = new System.Drawing.Size(300, 197);
+            this.picImagenSitio.Size = new System.Drawing.Size(300, 211);
             this.picImagenSitio.TabIndex = 15;
             this.picImagenSitio.TabStop = false;
             // 
             // lblNomSitio
             // 
             this.lblNomSitio.AutoSize = true;
+            this.lblNomSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNomSitio.Location = new System.Drawing.Point(154, 223);
             this.lblNomSitio.Name = "lblNomSitio";
-            this.lblNomSitio.Size = new System.Drawing.Size(38, 15);
+            this.lblNomSitio.Size = new System.Drawing.Size(41, 17);
             this.lblNomSitio.TabIndex = 16;
             this.lblNomSitio.Text = "label1";
             this.lblNomSitio.Click += new System.EventHandler(this.lblNomSitio_Click);
@@ -155,62 +157,82 @@
             // lblUbicacion
             // 
             this.lblUbicacion.AutoSize = true;
+            this.lblUbicacion.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblUbicacion.Location = new System.Drawing.Point(154, 264);
             this.lblUbicacion.Name = "lblUbicacion";
-            this.lblUbicacion.Size = new System.Drawing.Size(38, 15);
+            this.lblUbicacion.Size = new System.Drawing.Size(41, 17);
             this.lblUbicacion.TabIndex = 17;
             this.lblUbicacion.Text = "label2";
             // 
             // lblNomDueno
             // 
             this.lblNomDueno.AutoSize = true;
+            this.lblNomDueno.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNomDueno.Location = new System.Drawing.Point(155, 298);
             this.lblNomDueno.Name = "lblNomDueno";
-            this.lblNomDueno.Size = new System.Drawing.Size(38, 15);
+            this.lblNomDueno.Size = new System.Drawing.Size(41, 17);
             this.lblNomDueno.TabIndex = 18;
             this.lblNomDueno.Text = "label3";
             // 
             // lblNumtelefono
             // 
             this.lblNumtelefono.AutoSize = true;
+            this.lblNumtelefono.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNumtelefono.Location = new System.Drawing.Point(160, 345);
             this.lblNumtelefono.Name = "lblNumtelefono";
-            this.lblNumtelefono.Size = new System.Drawing.Size(38, 15);
+            this.lblNumtelefono.Size = new System.Drawing.Size(41, 17);
             this.lblNumtelefono.TabIndex = 19;
             this.lblNumtelefono.Text = "label4";
             // 
             // lblCorreoE
             // 
             this.lblCorreoE.AutoSize = true;
+            this.lblCorreoE.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCorreoE.Location = new System.Drawing.Point(160, 387);
             this.lblCorreoE.Name = "lblCorreoE";
-            this.lblCorreoE.Size = new System.Drawing.Size(38, 15);
+            this.lblCorreoE.Size = new System.Drawing.Size(41, 17);
             this.lblCorreoE.TabIndex = 20;
             this.lblCorreoE.Text = "label5";
             // 
             // lblHoraAten
             // 
             this.lblHoraAten.AutoSize = true;
+            this.lblHoraAten.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblHoraAten.Location = new System.Drawing.Point(154, 421);
             this.lblHoraAten.Name = "lblHoraAten";
-            this.lblHoraAten.Size = new System.Drawing.Size(38, 15);
+            this.lblHoraAten.Size = new System.Drawing.Size(41, 17);
             this.lblHoraAten.TabIndex = 21;
             this.lblHoraAten.Text = "label6";
             // 
             // lblCosto
             // 
             this.lblCosto.AutoSize = true;
+            this.lblCosto.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCosto.Location = new System.Drawing.Point(154, 456);
             this.lblCosto.Name = "lblCosto";
-            this.lblCosto.Size = new System.Drawing.Size(38, 15);
+            this.lblCosto.Size = new System.Drawing.Size(41, 17);
             this.lblCosto.TabIndex = 22;
             this.lblCosto.Text = "label7";
+            // 
+            // btnAmpliar
+            // 
+            this.btnAmpliar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAmpliar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAmpliar.ForeColor = System.Drawing.Color.White;
+            this.btnAmpliar.Location = new System.Drawing.Point(234, 186);
+            this.btnAmpliar.Name = "btnAmpliar";
+            this.btnAmpliar.Size = new System.Drawing.Size(69, 23);
+            this.btnAmpliar.TabIndex = 23;
+            this.btnAmpliar.Text = "ampliar";
+            this.btnAmpliar.UseVisualStyleBackColor = false;
+            this.btnAmpliar.Click += new System.EventHandler(this.btnAmpliar_Click);
             // 
             // FrmInfoSitio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(304, 523);
+            this.Controls.Add(this.btnAmpliar);
             this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.lblHoraAten);
             this.Controls.Add(this.lblCorreoE);
@@ -254,5 +276,6 @@
         private Label lblCorreoE;
         private Label lblHoraAten;
         private Label lblCosto;
+        private Button btnAmpliar;
     }
 }

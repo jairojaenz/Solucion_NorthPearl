@@ -188,10 +188,10 @@
             // lblCerroApante
             // 
             this.lblCerroApante.AutoSize = true;
-            this.lblCerroApante.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCerroApante.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCerroApante.Location = new System.Drawing.Point(5, 185);
             this.lblCerroApante.Name = "lblCerroApante";
-            this.lblCerroApante.Size = new System.Drawing.Size(81, 15);
+            this.lblCerroApante.Size = new System.Drawing.Size(82, 17);
             this.lblCerroApante.TabIndex = 11;
             this.lblCerroApante.Text = "Cerro Apante";
             this.lblCerroApante.Click += new System.EventHandler(this.label1_Click);
@@ -199,80 +199,80 @@
             // lblCascadaLuna
             // 
             this.lblCascadaLuna.AutoSize = true;
-            this.lblCascadaLuna.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCascadaLuna.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCascadaLuna.Location = new System.Drawing.Point(113, 185);
             this.lblCascadaLuna.Name = "lblCascadaLuna";
-            this.lblCascadaLuna.Size = new System.Drawing.Size(79, 15);
+            this.lblCascadaLuna.Size = new System.Drawing.Size(83, 17);
             this.lblCascadaLuna.TabIndex = 12;
             this.lblCascadaLuna.Text = "Cascada Luna";
             // 
             // lblCastilloCacao
             // 
             this.lblCastilloCacao.AutoSize = true;
-            this.lblCastilloCacao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCastilloCacao.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCastilloCacao.Location = new System.Drawing.Point(217, 185);
             this.lblCastilloCacao.Name = "lblCastilloCacao";
-            this.lblCastilloCacao.Size = new System.Drawing.Size(81, 15);
+            this.lblCastilloCacao.Size = new System.Drawing.Size(84, 17);
             this.lblCastilloCacao.TabIndex = 13;
             this.lblCastilloCacao.Text = "Castillo Cacao";
             // 
             // lblCatedral
             // 
             this.lblCatedral.AutoSize = true;
-            this.lblCatedral.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCatedral.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCatedral.Location = new System.Drawing.Point(17, 283);
             this.lblCatedral.Name = "lblCatedral";
-            this.lblCatedral.Size = new System.Drawing.Size(53, 15);
+            this.lblCatedral.Size = new System.Drawing.Size(54, 17);
             this.lblCatedral.TabIndex = 14;
             this.lblCatedral.Text = "Catedral";
             // 
             // lblIguali
             // 
             this.lblIguali.AutoSize = true;
-            this.lblIguali.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIguali.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblIguali.Location = new System.Drawing.Point(133, 282);
             this.lblIguali.Name = "lblIguali";
-            this.lblIguali.Size = new System.Drawing.Size(37, 15);
+            this.lblIguali.Size = new System.Drawing.Size(39, 17);
             this.lblIguali.TabIndex = 15;
             this.lblIguali.Text = "Igualí";
             // 
             // lblMiradorCalvario
             // 
             this.lblMiradorCalvario.AutoSize = true;
-            this.lblMiradorCalvario.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMiradorCalvario.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMiradorCalvario.Location = new System.Drawing.Point(207, 284);
             this.lblMiradorCalvario.Name = "lblMiradorCalvario";
-            this.lblMiradorCalvario.Size = new System.Drawing.Size(98, 15);
+            this.lblMiradorCalvario.Size = new System.Drawing.Size(102, 17);
             this.lblMiradorCalvario.TabIndex = 16;
             this.lblMiradorCalvario.Text = "Mirador Calvario";
             // 
             // lblSelvaNegra
             // 
             this.lblSelvaNegra.AutoSize = true;
-            this.lblSelvaNegra.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSelvaNegra.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblSelvaNegra.Location = new System.Drawing.Point(12, 381);
             this.lblSelvaNegra.Name = "lblSelvaNegra";
-            this.lblSelvaNegra.Size = new System.Drawing.Size(74, 15);
+            this.lblSelvaNegra.Size = new System.Drawing.Size(74, 17);
             this.lblSelvaNegra.TabIndex = 17;
             this.lblSelvaNegra.Text = "Selva Negra";
             // 
             // lblMuseoCFA
             // 
             this.lblMuseoCFA.AutoSize = true;
-            this.lblMuseoCFA.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMuseoCFA.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMuseoCFA.Location = new System.Drawing.Point(118, 381);
             this.lblMuseoCFA.Name = "lblMuseoCFA";
-            this.lblMuseoCFA.Size = new System.Drawing.Size(67, 15);
+            this.lblMuseoCFA.Size = new System.Drawing.Size(72, 17);
             this.lblMuseoCFA.TabIndex = 18;
             this.lblMuseoCFA.Text = "Museo CFA";
             // 
             // lblMuseoCoffee
             // 
             this.lblMuseoCoffee.AutoSize = true;
-            this.lblMuseoCoffee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMuseoCoffee.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMuseoCoffee.Location = new System.Drawing.Point(219, 379);
             this.lblMuseoCoffee.Name = "lblMuseoCoffee";
-            this.lblMuseoCoffee.Size = new System.Drawing.Size(85, 15);
+            this.lblMuseoCoffee.Size = new System.Drawing.Size(84, 17);
             this.lblMuseoCoffee.TabIndex = 19;
             this.lblMuseoCoffee.Text = "Museo Coffee";
             // 

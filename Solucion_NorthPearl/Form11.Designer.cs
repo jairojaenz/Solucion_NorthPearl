@@ -61,6 +61,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(12, 174);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -96,6 +97,7 @@
             // 
             this.btnEnviar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnviar.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEnviar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEnviar.Location = new System.Drawing.Point(217, 436);
             this.btnEnviar.Name = "btnEnviar";

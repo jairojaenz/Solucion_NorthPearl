@@ -14,10 +14,13 @@ namespace Solucion_NorthPearl
     {
         string busqueda;
 
+
         public frmPantallaPrincipal()
         {
             InitializeComponent();
-        }       
+        }
+       
+        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -40,6 +43,8 @@ namespace Solucion_NorthPearl
 
         private void picCatedral_Click(object sender, EventArgs e)
         {
+            
+
 
         }
 
@@ -69,12 +74,14 @@ namespace Solucion_NorthPearl
                 Image miImage2 = Image.FromFile("BIOLOGIA AGUALI.jpg");
                 Image miImage3 = Image.FromFile("castillo DE CACAO.jpg");
                 Image miImage4 = Image.FromFile("CATEDRAL DE MATAGALPA.jpg");
-                Image miImage5 = Image.FromFile("MIRADOR EL CALVARIO.jpg");
+                Image miImage5 = Image.FromFile("mirador-el-calvario.jpg");
                 Image miImage6 = Image.FromFile("MUSEO CAR FONSECA AMADORLOS.jpg");
                 Image miImage7 = Image.FromFile("NATIONAL MUSEU COFFEE.jpg");
                 Image miImage8 = Image.FromFile("SELVA NEGRA.jpg");
-  
 
+
+                
+               
                 while (cadena != null && autorizado == false)
                 {
                     arreglo = cadena.Split(separador);
@@ -87,13 +94,17 @@ namespace Solucion_NorthPearl
                         forma2.Correo = arreglo[4];
                         forma2.Horarioatencion = arreglo[5];
                         forma2.Costoservicio = arreglo[6];
+
                         if (arreglo[0].Trim().Equals("CERRO APANTE"))
                         {
                             forma2.Sitio1 = miImage;
+                            
                         }
                         if (arreglo[0].Trim().Equals("CASCADA LA LUNA"))
                         {
                             forma2.Sitio1 = miImage1;
+                            
+                           
                         }
                         if (arreglo[0].Trim().Equals("CASTILLO CACAO"))
                         {
@@ -123,7 +134,8 @@ namespace Solucion_NorthPearl
                         {
                             forma2.Sitio1 = miImage6;
                         }
-                       
+
+                        
 
 
 
@@ -143,11 +155,17 @@ namespace Solucion_NorthPearl
                     MessageBox.Show("Sitio no encontrado","Error" ,MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+             
             catch (Exception error)
             {
                 MessageBox.Show("Error: " + error);
             }
+
+            
+
         }
+        
+
     }
 }
         

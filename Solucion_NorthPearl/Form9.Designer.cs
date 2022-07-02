@@ -83,9 +83,10 @@
             // 
             // txtNombreDueno
             // 
+            this.txtNombreDueno.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNombreDueno.Location = new System.Drawing.Point(8, 218);
             this.txtNombreDueno.Name = "txtNombreDueno";
-            this.txtNombreDueno.Size = new System.Drawing.Size(279, 23);
+            this.txtNombreDueno.Size = new System.Drawing.Size(279, 24);
             this.txtNombreDueno.TabIndex = 21;
             // 
             // lblNombreDueno
@@ -101,9 +102,10 @@
             // 
             // txtUbicacionSitio
             // 
+            this.txtUbicacionSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtUbicacionSitio.Location = new System.Drawing.Point(8, 166);
             this.txtUbicacionSitio.Name = "txtUbicacionSitio";
-            this.txtUbicacionSitio.Size = new System.Drawing.Size(279, 23);
+            this.txtUbicacionSitio.Size = new System.Drawing.Size(279, 24);
             this.txtUbicacionSitio.TabIndex = 19;
             // 
             // lblUbicacionSitio
@@ -119,9 +121,10 @@
             // 
             // txtNombreSitio
             // 
+            this.txtNombreSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNombreSitio.Location = new System.Drawing.Point(8, 99);
             this.txtNombreSitio.Name = "txtNombreSitio";
-            this.txtNombreSitio.Size = new System.Drawing.Size(279, 23);
+            this.txtNombreSitio.Size = new System.Drawing.Size(279, 24);
             this.txtNombreSitio.TabIndex = 17;
             // 
             // lblNombreSitio
@@ -148,9 +151,10 @@
             // 
             // txtNumeroTelefono
             // 
+            this.txtNumeroTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNumeroTelefono.Location = new System.Drawing.Point(8, 278);
             this.txtNumeroTelefono.Name = "txtNumeroTelefono";
-            this.txtNumeroTelefono.Size = new System.Drawing.Size(279, 23);
+            this.txtNumeroTelefono.Size = new System.Drawing.Size(279, 24);
             this.txtNumeroTelefono.TabIndex = 29;
             // 
             // lblNumeroTelefono
@@ -166,9 +170,10 @@
             // 
             // txtCorreoSitio
             // 
+            this.txtCorreoSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCorreoSitio.Location = new System.Drawing.Point(8, 336);
             this.txtCorreoSitio.Name = "txtCorreoSitio";
-            this.txtCorreoSitio.Size = new System.Drawing.Size(279, 23);
+            this.txtCorreoSitio.Size = new System.Drawing.Size(279, 24);
             this.txtCorreoSitio.TabIndex = 31;
             this.txtCorreoSitio.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -185,9 +190,10 @@
             // 
             // txtHorarioAtencion
             // 
+            this.txtHorarioAtencion.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtHorarioAtencion.Location = new System.Drawing.Point(8, 395);
             this.txtHorarioAtencion.Name = "txtHorarioAtencion";
-            this.txtHorarioAtencion.Size = new System.Drawing.Size(279, 23);
+            this.txtHorarioAtencion.Size = new System.Drawing.Size(279, 24);
             this.txtHorarioAtencion.TabIndex = 33;
             this.txtHorarioAtencion.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -204,9 +210,10 @@
             // 
             // txtCostoServicio
             // 
+            this.txtCostoServicio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCostoServicio.Location = new System.Drawing.Point(8, 460);
             this.txtCostoServicio.Name = "txtCostoServicio";
-            this.txtCostoServicio.Size = new System.Drawing.Size(279, 23);
+            this.txtCostoServicio.Size = new System.Drawing.Size(279, 24);
             this.txtCostoServicio.TabIndex = 35;
             // 
             // lblCostoServicio

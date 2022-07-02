@@ -39,20 +39,20 @@
             // 
             // picImagenAmpli
             // 
-            this.picImagenAmpli.Location = new System.Drawing.Point(12, 82);
+            this.picImagenAmpli.Location = new System.Drawing.Point(2, 0);
             this.picImagenAmpli.Name = "picImagenAmpli";
-            this.picImagenAmpli.Size = new System.Drawing.Size(281, 252);
+            this.picImagenAmpli.Size = new System.Drawing.Size(299, 334);
             this.picImagenAmpli.TabIndex = 0;
             this.picImagenAmpli.TabStop = false;
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombre.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblNombre.Location = new System.Drawing.Point(115, 363);
+            this.lblNombre.Location = new System.Drawing.Point(12, 347);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(65, 25);
+            this.lblNombre.Size = new System.Drawing.Size(72, 28);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "label1";
             // 
@@ -60,6 +60,7 @@
             // 
             this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOk.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnOk.Location = new System.Drawing.Point(242, 438);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(51, 23);
@@ -71,12 +72,13 @@
             // picbxLogofrm2
             // 
             this.picbxLogofrm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogofrm2.BackgroundImage")));
-            this.picbxLogofrm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picbxLogofrm2.Location = new System.Drawing.Point(201, 6);
+            this.picbxLogofrm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picbxLogofrm2.Location = new System.Drawing.Point(234, 6);
             this.picbxLogofrm2.Name = "picbxLogofrm2";
-            this.picbxLogofrm2.Size = new System.Drawing.Size(100, 50);
+            this.picbxLogofrm2.Size = new System.Drawing.Size(67, 37);
             this.picbxLogofrm2.TabIndex = 21;
             this.picbxLogofrm2.TabStop = false;
+            this.picbxLogofrm2.Click += new System.EventHandler(this.picbxLogofrm2_Click);
             // 
             // FrmImagenAmpliada
             // 
