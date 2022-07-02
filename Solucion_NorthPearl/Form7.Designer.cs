@@ -94,6 +94,7 @@
             this.btnCambiarContraseña.TabIndex = 28;
             this.btnCambiarContraseña.Text = "Cambiar Contraseña";
             this.btnCambiarContraseña.UseVisualStyleBackColor = false;
+            this.btnCambiarContraseña.Click += new System.EventHandler(this.btnCambiarContraseña_Click);
             // 
             // btnEditarCuenta
             // 

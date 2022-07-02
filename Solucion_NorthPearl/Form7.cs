@@ -36,5 +36,10 @@ namespace Solucion_NorthPearl
             this.Hide();
 
         }
+
+        private void btnCambiarContraseña_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

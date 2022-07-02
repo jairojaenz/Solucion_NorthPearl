@@ -50,9 +50,10 @@
             // 
             // btnOk
             // 
-            this.btnOk.BackColor = System.Drawing.Color.Lime;
-            this.btnOk.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnOk.Location = new System.Drawing.Point(248, 492);
+            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOk.ForeColor = System.Drawing.Color.White;
+            this.btnOk.Location = new System.Drawing.Point(248, 479);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(44, 23);
             this.btnOk.TabIndex = 7;
@@ -64,7 +65,7 @@
             // 
             this.lblNombreSitio.AutoSize = true;
             this.lblNombreSitio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNombreSitio.Location = new System.Drawing.Point(0, 224);
+            this.lblNombreSitio.Location = new System.Drawing.Point(12, 223);
             this.lblNombreSitio.Name = "lblNombreSitio";
             this.lblNombreSitio.Size = new System.Drawing.Size(102, 15);
             this.lblNombreSitio.TabIndex = 8;
@@ -75,7 +76,7 @@
             // 
             this.lblUbi.AutoSize = true;
             this.lblUbi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblUbi.Location = new System.Drawing.Point(0, 265);
+            this.lblUbi.Location = new System.Drawing.Point(12, 264);
             this.lblUbi.Name = "lblUbi";
             this.lblUbi.Size = new System.Drawing.Size(110, 15);
             this.lblUbi.TabIndex = 9;
@@ -85,7 +86,7 @@
             // 
             this.lblNombreDueno.AutoSize = true;
             this.lblNombreDueno.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNombreDueno.Location = new System.Drawing.Point(0, 299);
+            this.lblNombreDueno.Location = new System.Drawing.Point(12, 298);
             this.lblNombreDueno.Name = "lblNombreDueno";
             this.lblNombreDueno.Size = new System.Drawing.Size(114, 15);
             this.lblNombreDueno.TabIndex = 10;
@@ -95,7 +96,7 @@
             // 
             this.lblHorarioAtención.AutoSize = true;
             this.lblHorarioAtención.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblHorarioAtención.Location = new System.Drawing.Point(0, 422);
+            this.lblHorarioAtención.Location = new System.Drawing.Point(12, 421);
             this.lblHorarioAtención.Name = "lblHorarioAtención";
             this.lblHorarioAtención.Size = new System.Drawing.Size(120, 15);
             this.lblHorarioAtención.TabIndex = 11;
@@ -105,7 +106,7 @@
             // 
             this.lblCostoServicio.AutoSize = true;
             this.lblCostoServicio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCostoServicio.Location = new System.Drawing.Point(2, 457);
+            this.lblCostoServicio.Location = new System.Drawing.Point(14, 456);
             this.lblCostoServicio.Name = "lblCostoServicio";
             this.lblCostoServicio.Size = new System.Drawing.Size(104, 15);
             this.lblCostoServicio.TabIndex = 12;
@@ -115,7 +116,7 @@
             // 
             this.lblNumeroTelefono.AutoSize = true;
             this.lblNumeroTelefono.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNumeroTelefono.Location = new System.Drawing.Point(0, 346);
+            this.lblNumeroTelefono.Location = new System.Drawing.Point(12, 345);
             this.lblNumeroTelefono.Name = "lblNumeroTelefono";
             this.lblNumeroTelefono.Size = new System.Drawing.Size(124, 15);
             this.lblNumeroTelefono.TabIndex = 13;
@@ -125,7 +126,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCorreo.Location = new System.Drawing.Point(2, 388);
+            this.lblCorreo.Location = new System.Drawing.Point(14, 387);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(114, 15);
             this.lblCorreo.TabIndex = 14;
@@ -135,7 +136,7 @@
             // 
             this.picImagenSitio.BackColor = System.Drawing.Color.Transparent;
             this.picImagenSitio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picImagenSitio.Location = new System.Drawing.Point(0, 0);
+            this.picImagenSitio.Location = new System.Drawing.Point(3, 12);
             this.picImagenSitio.Name = "picImagenSitio";
             this.picImagenSitio.Size = new System.Drawing.Size(300, 197);
             this.picImagenSitio.TabIndex = 15;
@@ -144,7 +145,7 @@
             // lblNomSitio
             // 
             this.lblNomSitio.AutoSize = true;
-            this.lblNomSitio.Location = new System.Drawing.Point(142, 224);
+            this.lblNomSitio.Location = new System.Drawing.Point(154, 223);
             this.lblNomSitio.Name = "lblNomSitio";
             this.lblNomSitio.Size = new System.Drawing.Size(38, 15);
             this.lblNomSitio.TabIndex = 16;
@@ -154,7 +155,7 @@
             // lblUbicacion
             // 
             this.lblUbicacion.AutoSize = true;
-            this.lblUbicacion.Location = new System.Drawing.Point(142, 265);
+            this.lblUbicacion.Location = new System.Drawing.Point(154, 264);
             this.lblUbicacion.Name = "lblUbicacion";
             this.lblUbicacion.Size = new System.Drawing.Size(38, 15);
             this.lblUbicacion.TabIndex = 17;
@@ -163,7 +164,7 @@
             // lblNomDueno
             // 
             this.lblNomDueno.AutoSize = true;
-            this.lblNomDueno.Location = new System.Drawing.Point(143, 299);
+            this.lblNomDueno.Location = new System.Drawing.Point(155, 298);
             this.lblNomDueno.Name = "lblNomDueno";
             this.lblNomDueno.Size = new System.Drawing.Size(38, 15);
             this.lblNomDueno.TabIndex = 18;
@@ -172,7 +173,7 @@
             // lblNumtelefono
             // 
             this.lblNumtelefono.AutoSize = true;
-            this.lblNumtelefono.Location = new System.Drawing.Point(148, 346);
+            this.lblNumtelefono.Location = new System.Drawing.Point(160, 345);
             this.lblNumtelefono.Name = "lblNumtelefono";
             this.lblNumtelefono.Size = new System.Drawing.Size(38, 15);
             this.lblNumtelefono.TabIndex = 19;
@@ -181,7 +182,7 @@
             // lblCorreoE
             // 
             this.lblCorreoE.AutoSize = true;
-            this.lblCorreoE.Location = new System.Drawing.Point(148, 388);
+            this.lblCorreoE.Location = new System.Drawing.Point(160, 387);
             this.lblCorreoE.Name = "lblCorreoE";
             this.lblCorreoE.Size = new System.Drawing.Size(38, 15);
             this.lblCorreoE.TabIndex = 20;
@@ -190,7 +191,7 @@
             // lblHoraAten
             // 
             this.lblHoraAten.AutoSize = true;
-            this.lblHoraAten.Location = new System.Drawing.Point(142, 422);
+            this.lblHoraAten.Location = new System.Drawing.Point(154, 421);
             this.lblHoraAten.Name = "lblHoraAten";
             this.lblHoraAten.Size = new System.Drawing.Size(38, 15);
             this.lblHoraAten.TabIndex = 21;
@@ -199,7 +200,7 @@
             // lblCosto
             // 
             this.lblCosto.AutoSize = true;
-            this.lblCosto.Location = new System.Drawing.Point(142, 457);
+            this.lblCosto.Location = new System.Drawing.Point(154, 456);
             this.lblCosto.Name = "lblCosto";
             this.lblCosto.Size = new System.Drawing.Size(38, 15);
             this.lblCosto.TabIndex = 22;
@@ -209,7 +210,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 580);
+            this.ClientSize = new System.Drawing.Size(304, 523);
             this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.lblHoraAten);
             this.Controls.Add(this.lblCorreoE);
