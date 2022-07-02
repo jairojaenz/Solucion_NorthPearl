@@ -62,6 +62,19 @@ namespace Solucion_NorthPearl
                 char[] separador = { ',' };
                 bool autorizado = false;
                 cadena = leer.ReadLine();
+                
+
+                Image miImage = Image.FromFile("CERRO APANTE.jpg");
+                Image miImage1 = Image.FromFile("CASCADA LA LUNA.jpg");
+                Image miImage2 = Image.FromFile("BIOLOGIA AGUALI.jpg");
+                Image miImage3 = Image.FromFile("castillo DE CACAO.jpg");
+                Image miImage4 = Image.FromFile("CATEDRAL DE MATAGALPA.jpg");
+                Image miImage5 = Image.FromFile("MIRADOR EL CALVARIO.jpg");
+                Image miImage6 = Image.FromFile("MUSEO CAR FONSECA AMADORLOS.jpg");
+                Image miImage7 = Image.FromFile("NATIONAL MUSEU COFFEE.jpg");
+                Image miImage8 = Image.FromFile("SELVA NEGRA.jpg");
+  
+
                 while (cadena != null && autorizado == false)
                 {
                     arreglo = cadena.Split(separador);
@@ -74,6 +87,46 @@ namespace Solucion_NorthPearl
                         forma2.Correo = arreglo[4];
                         forma2.Horarioatencion = arreglo[5];
                         forma2.Costoservicio = arreglo[6];
+                        if (arreglo[0].Trim().Equals("CERRO APANTE"))
+                        {
+                            forma2.Sitio1 = miImage;
+                        }
+                        if (arreglo[0].Trim().Equals("CASCADA LA LUNA"))
+                        {
+                            forma2.Sitio1 = miImage1;
+                        }
+                        if (arreglo[0].Trim().Equals("CASTILLO CACAO"))
+                        {
+                            forma2.Sitio1 = miImage3;
+                        }
+                        if (arreglo[0].Trim().Equals("CATEDRAL"))
+                        {
+                            forma2.Sitio1 = miImage4;
+                        }
+                        if (arreglo[0].Trim().Equals("ESTACION BIOLOGICA AGUALI"))
+                        {
+                            forma2.Sitio1 = miImage2;
+                        }
+                        if (arreglo[0].Trim().Equals("MIRADOR EL CALVARIO"))
+                        {
+                            forma2.Sitio1 = miImage5;
+                        }
+                        if (arreglo[0].Trim().Equals("SELVA NEGRA"))
+                        {
+                            forma2.Sitio1 = miImage8;
+                        }
+                        if (arreglo[0].Trim().Equals("MUSEO CARLOS FONCECA AMADOR"))
+                        {
+                            forma2.Sitio1 = miImage6;
+                        }
+                        if (arreglo[0].Trim().Equals("MUSEO COFFEE"))
+                        {
+                            forma2.Sitio1 = miImage6;
+                        }
+                       
+
+
+
                         this.Hide();
                         forma2.ShowDialog();
                         autorizado = true;
@@ -83,6 +136,8 @@ namespace Solucion_NorthPearl
                         cadena = leer.ReadLine();
                     }
                 }
+               
+               
                 if (autorizado == false)
                 {
                     MessageBox.Show("Sitio no encontrado","Error" ,MessageBoxButtons.OK, MessageBoxIcon.Error);

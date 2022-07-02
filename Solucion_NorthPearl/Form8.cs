@@ -18,6 +18,7 @@ namespace Solucion_NorthPearl
         private string correo;
         private string horarioatencion;
         private string costoservicio;
+        private Image sitio1;
 
         public FrmInfoSitio(string datos)
         {
@@ -113,6 +114,15 @@ namespace Solucion_NorthPearl
                 lblCosto.Text = costoservicio;
             }
         }
+        public Image Sitio1
+        {
+            set
+            {
+                sitio1 = value;
+                picImagenSitio.Image = sitio1;
+                picImagenSitio.SizeMode = PictureBoxSizeMode.StretchImage; 
+            }
+        }
 
 
         private void lblNomSitio_Click(object sender, EventArgs e)
@@ -125,6 +135,11 @@ namespace Solucion_NorthPearl
             frmPantallaPrincipal principal = new frmPantallaPrincipal();
             principal.Show();
             this.Hide();
+        }
+
+        private void lblNombreSitio_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
