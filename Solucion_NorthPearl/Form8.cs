@@ -150,7 +150,12 @@ namespace Solucion_NorthPearl
             forma10.Nombresitio = lblNomSitio.Text;
             forma10.ShowDialog();
         }
-        
-       
+
+        private void btnCalificar_Click(object sender, EventArgs e)
+        {
+            FrmCalificacion miforma2 = new FrmCalificacion();
+            miforma2.Show();
+            this.Hide();
+        }
     }
 }

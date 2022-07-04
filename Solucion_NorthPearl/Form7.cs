@@ -39,7 +39,16 @@ namespace Solucion_NorthPearl
 
         private void btnCambiarContraseña_Click(object sender, EventArgs e)
         {
+            frmRecuperar miforma2 = new frmRecuperar();
+            miforma2.ShowDialog();
+            this.Hide();    
+        }
 
+        private void btnSalirFrm2_Click(object sender, EventArgs e)
+        {
+            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
+            miforma5.Show();
+            this.Hide();
         }
     }
 }

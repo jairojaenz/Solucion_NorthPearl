@@ -26,5 +26,13 @@ namespace Solucion_NorthPearl
         {
 
         }
+
+        private void btnEnviar_Click(object sender, EventArgs e)
+        {
+
+            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
+            miforma5.Show();
+            this.Hide();
+        }
     }
 }

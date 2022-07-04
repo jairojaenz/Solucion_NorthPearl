@@ -240,7 +240,7 @@
             // 
             this.lblMiradorCalvario.AutoSize = true;
             this.lblMiradorCalvario.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblMiradorCalvario.Location = new System.Drawing.Point(207, 284);
+            this.lblMiradorCalvario.Location = new System.Drawing.Point(202, 281);
             this.lblMiradorCalvario.Name = "lblMiradorCalvario";
             this.lblMiradorCalvario.Size = new System.Drawing.Size(102, 17);
             this.lblMiradorCalvario.TabIndex = 16;
@@ -306,6 +306,7 @@
             this.picbxMenu.Size = new System.Drawing.Size(20, 18);
             this.picbxMenu.TabIndex = 22;
             this.picbxMenu.TabStop = false;
+            this.picbxMenu.Click += new System.EventHandler(this.picbxMenu_Click);
             // 
             // picbxFlechaAbajo
             // 

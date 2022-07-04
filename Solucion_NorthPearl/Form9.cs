@@ -102,5 +102,14 @@ namespace Solucion_NorthPearl
                 ruta = direccion;
             }
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
+            miforma5.Show();
+            this.Hide();
+
+        }
     }
 }

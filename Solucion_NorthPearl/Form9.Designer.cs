@@ -49,6 +49,7 @@
             this.lblimagenSitio = new System.Windows.Forms.Label();
             this.btnAgregarFotos = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnOki = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,9 +74,9 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(190, 453);
+            this.btnGuardar.Location = new System.Drawing.Point(220, 454);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(97, 30);
+            this.btnGuardar.Size = new System.Drawing.Size(82, 30);
             this.btnGuardar.TabIndex = 26;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -249,9 +250,9 @@
             this.btnAgregarFotos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarFotos.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAgregarFotos.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarFotos.Location = new System.Drawing.Point(6, 453);
+            this.btnAgregarFotos.Location = new System.Drawing.Point(2, 454);
             this.btnAgregarFotos.Name = "btnAgregarFotos";
-            this.btnAgregarFotos.Size = new System.Drawing.Size(97, 30);
+            this.btnAgregarFotos.Size = new System.Drawing.Size(83, 30);
             this.btnAgregarFotos.TabIndex = 37;
             this.btnAgregarFotos.Text = "Agregar";
             this.btnAgregarFotos.UseVisualStyleBackColor = false;
@@ -261,12 +262,26 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btnOki
+            // 
+            this.btnOki.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnOki.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOki.ForeColor = System.Drawing.Color.White;
+            this.btnOki.Location = new System.Drawing.Point(134, 448);
+            this.btnOki.Name = "btnOki";
+            this.btnOki.Size = new System.Drawing.Size(37, 33);
+            this.btnOki.TabIndex = 38;
+            this.btnOki.Text = "OK";
+            this.btnOki.UseVisualStyleBackColor = false;
+            this.btnOki.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // FrmRegistroSitios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.Controls.Add(this.btnOki);
             this.Controls.Add(this.btnAgregarFotos);
             this.Controls.Add(this.lblimagenSitio);
             this.Controls.Add(this.txtCostoServicio);
@@ -317,5 +332,6 @@
         private Label lblimagenSitio;
         private Button btnAgregarFotos;
         private OpenFileDialog openFileDialog1;
+        private Button btnOki;
     }
 }

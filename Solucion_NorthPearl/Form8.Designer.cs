@@ -46,6 +46,7 @@
             this.lblHoraAten = new System.Windows.Forms.Label();
             this.lblCosto = new System.Windows.Forms.Label();
             this.btnAmpliar = new System.Windows.Forms.Button();
+            this.btnCalificar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picImagenSitio)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,7 +148,7 @@
             // 
             this.lblNomSitio.AutoSize = true;
             this.lblNomSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNomSitio.Location = new System.Drawing.Point(138, 227);
+            this.lblNomSitio.Location = new System.Drawing.Point(101, 228);
             this.lblNomSitio.Name = "lblNomSitio";
             this.lblNomSitio.Size = new System.Drawing.Size(41, 17);
             this.lblNomSitio.TabIndex = 16;
@@ -158,7 +159,7 @@
             // 
             this.lblUbicacion.AutoSize = true;
             this.lblUbicacion.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblUbicacion.Location = new System.Drawing.Point(138, 253);
+            this.lblUbicacion.Location = new System.Drawing.Point(108, 260);
             this.lblUbicacion.Name = "lblUbicacion";
             this.lblUbicacion.Size = new System.Drawing.Size(41, 17);
             this.lblUbicacion.TabIndex = 17;
@@ -168,7 +169,7 @@
             // 
             this.lblNomDueno.AutoSize = true;
             this.lblNomDueno.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNomDueno.Location = new System.Drawing.Point(138, 287);
+            this.lblNomDueno.Location = new System.Drawing.Point(114, 292);
             this.lblNomDueno.Name = "lblNomDueno";
             this.lblNomDueno.Size = new System.Drawing.Size(41, 17);
             this.lblNomDueno.TabIndex = 18;
@@ -178,7 +179,7 @@
             // 
             this.lblNumtelefono.AutoSize = true;
             this.lblNumtelefono.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNumtelefono.Location = new System.Drawing.Point(141, 326);
+            this.lblNumtelefono.Location = new System.Drawing.Point(122, 328);
             this.lblNumtelefono.Name = "lblNumtelefono";
             this.lblNumtelefono.Size = new System.Drawing.Size(41, 17);
             this.lblNumtelefono.TabIndex = 19;
@@ -188,7 +189,7 @@
             // 
             this.lblCorreoE.AutoSize = true;
             this.lblCorreoE.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblCorreoE.Location = new System.Drawing.Point(141, 361);
+            this.lblCorreoE.Location = new System.Drawing.Point(114, 361);
             this.lblCorreoE.Name = "lblCorreoE";
             this.lblCorreoE.Size = new System.Drawing.Size(41, 17);
             this.lblCorreoE.TabIndex = 20;
@@ -198,7 +199,7 @@
             // 
             this.lblHoraAten.AutoSize = true;
             this.lblHoraAten.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblHoraAten.Location = new System.Drawing.Point(144, 397);
+            this.lblHoraAten.Location = new System.Drawing.Point(118, 397);
             this.lblHoraAten.Name = "lblHoraAten";
             this.lblHoraAten.Size = new System.Drawing.Size(41, 17);
             this.lblHoraAten.TabIndex = 21;
@@ -208,7 +209,7 @@
             // 
             this.lblCosto.AutoSize = true;
             this.lblCosto.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblCosto.Location = new System.Drawing.Point(141, 436);
+            this.lblCosto.Location = new System.Drawing.Point(106, 436);
             this.lblCosto.Name = "lblCosto";
             this.lblCosto.Size = new System.Drawing.Size(41, 17);
             this.lblCosto.TabIndex = 22;
@@ -228,12 +229,26 @@
             this.btnAmpliar.UseVisualStyleBackColor = false;
             this.btnAmpliar.Click += new System.EventHandler(this.btnAmpliar_Click);
             // 
+            // btnCalificar
+            // 
+            this.btnCalificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCalificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalificar.ForeColor = System.Drawing.Color.White;
+            this.btnCalificar.Location = new System.Drawing.Point(12, 464);
+            this.btnCalificar.Name = "btnCalificar";
+            this.btnCalificar.Size = new System.Drawing.Size(75, 23);
+            this.btnCalificar.TabIndex = 24;
+            this.btnCalificar.Text = "Calificar";
+            this.btnCalificar.UseVisualStyleBackColor = false;
+            this.btnCalificar.Click += new System.EventHandler(this.btnCalificar_Click);
+            // 
             // FrmInfoSitio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.Controls.Add(this.btnCalificar);
             this.Controls.Add(this.btnAmpliar);
             this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.lblHoraAten);
@@ -279,5 +294,6 @@
         private Label lblHoraAten;
         private Label lblCosto;
         private Button btnAmpliar;
+        private Button btnCalificar;
     }
 }

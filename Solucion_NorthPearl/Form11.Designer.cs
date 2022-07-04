@@ -105,6 +105,7 @@
             this.btnEnviar.TabIndex = 25;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = false;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // FrmCalificacion
             // 

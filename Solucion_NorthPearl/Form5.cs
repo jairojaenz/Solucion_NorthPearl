@@ -72,11 +72,11 @@ namespace Solucion_NorthPearl
                 Image miImage = Image.FromFile("CERRO APANTE.jpg");
                 Image miImage1 = Image.FromFile("CASCADA LA LUNA.jpg");
                 Image miImage2 = Image.FromFile("BIOLOGIA AGUALI.jpg");
-                Image miImage3 = Image.FromFile("castillo DE CACAO.jpg");
-                Image miImage4 = Image.FromFile("CATEDRAL DE MATAGALPA.jpg");
-                Image miImage5 = Image.FromFile("mirador-el-calvario.jpg");
-                Image miImage6 = Image.FromFile("MUSEO CAR FONSECA AMADORLOS.jpg");
-                Image miImage7 = Image.FromFile("NATIONAL MUSEU COFFEE.jpg");
+                Image miImage3 = Image.FromFile("CASTILLO CACAO.jpg");
+                Image miImage4 = Image.FromFile("CATEDRAL MATAGALPA.jpg");
+                Image miImage5 = Image.FromFile("MIRADOR CALVARIO.jpg");
+                Image miImage6 = Image.FromFile("MUSEO CFA.jpg");
+                Image miImage7 = Image.FromFile("MUSEO COFFEE.jpg");
                 Image miImage8 = Image.FromFile("SELVA NEGRA.jpg");
 
 
@@ -114,7 +114,7 @@ namespace Solucion_NorthPearl
                         {
                             forma2.Sitio1 = miImage4;
                         }
-                        if (arreglo[0].Trim().Equals("ESTACION BIOLOGICA AGUALI"))
+                        if (arreglo[0].Trim().Equals("ESTACION AGUALI"))
                         {
                             forma2.Sitio1 = miImage2;
                         }
@@ -126,13 +126,13 @@ namespace Solucion_NorthPearl
                         {
                             forma2.Sitio1 = miImage8;
                         }
-                        if (arreglo[0].Trim().Equals("MUSEO CARLOS FONCECA AMADOR"))
+                        if (arreglo[0].Trim().Equals("MUSEO CFA"))
                         {
                             forma2.Sitio1 = miImage6;
                         }
                         if (arreglo[0].Trim().Equals("MUSEO COFFEE"))
                         {
-                            forma2.Sitio1 = miImage6;
+                            forma2.Sitio1 = miImage7;
                         }
 
                         
@@ -164,8 +164,14 @@ namespace Solucion_NorthPearl
             
 
         }
-        
 
+        private void picbxMenu_Click(object sender, EventArgs e)
+        {
+
+            FrmRegistroSitios miforma5 = new FrmRegistroSitios();
+            miforma5.Show();
+            this.Hide();
+        }
     }
 }
         

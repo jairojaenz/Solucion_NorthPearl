@@ -77,6 +77,7 @@
             this.btnSalirFrm2.TabIndex = 27;
             this.btnSalirFrm2.Text = "Salir";
             this.btnSalirFrm2.UseVisualStyleBackColor = false;
+            this.btnSalirFrm2.Click += new System.EventHandler(this.btnSalirFrm2_Click);
             // 
             // btnCambiarContraseña
             // 
