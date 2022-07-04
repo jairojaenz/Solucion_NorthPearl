@@ -646,8 +646,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.btnGuarardarCambiosFrm2);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.cbbxEntrada);

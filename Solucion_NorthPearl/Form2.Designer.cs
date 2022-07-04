@@ -689,9 +689,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.btnCrearFrm2);

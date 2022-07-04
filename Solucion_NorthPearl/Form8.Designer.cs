@@ -138,9 +138,9 @@
             // 
             this.picImagenSitio.BackColor = System.Drawing.Color.Transparent;
             this.picImagenSitio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picImagenSitio.Location = new System.Drawing.Point(2, 4);
+            this.picImagenSitio.Location = new System.Drawing.Point(2, -4);
             this.picImagenSitio.Name = "picImagenSitio";
-            this.picImagenSitio.Size = new System.Drawing.Size(300, 209);
+            this.picImagenSitio.Size = new System.Drawing.Size(304, 217);
             this.picImagenSitio.TabIndex = 15;
             this.picImagenSitio.TabStop = false;
             // 
@@ -246,6 +246,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
             this.ControlBox = false;
