@@ -86,6 +86,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.lblNombre);
@@ -93,6 +94,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmImagenAmpliada";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picImagenAmpli)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).EndInit();

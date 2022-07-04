@@ -357,6 +357,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.btnBuscarFrm5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
@@ -386,6 +387,7 @@
             this.Controls.Add(this.lblLugarPreferido);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPantallaPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picCerroApante)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCastilloCacao)).EndInit();

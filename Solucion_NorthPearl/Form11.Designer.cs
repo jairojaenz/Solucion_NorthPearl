@@ -113,6 +113,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.lblGracias);
             this.Controls.Add(this.lblIngreResena);
@@ -121,6 +122,7 @@
             this.Controls.Add(this.lblSitioPregunta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCalificacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).EndInit();
             this.ResumeLayout(false);

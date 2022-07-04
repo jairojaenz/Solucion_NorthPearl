@@ -19,7 +19,7 @@ namespace Solucion_NorthPearl
 
         private void btnGuardarCambios_Click(object sender, EventArgs e)
         {
-            frmRecuperar miforma2 = new frmRecuperar();
+           Form7 miforma2 = new Form7();
             miforma2.Show();
             this.Hide();
         }

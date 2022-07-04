@@ -263,7 +263,10 @@
             this.Controls.Add(this.lblRecuperarCuenta);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmRecuperar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Recuperar Cuenta";
             this.Load += new System.EventHandler(this.v_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogoFrmRecuperarCuenta)).EndInit();

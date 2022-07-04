@@ -129,7 +129,10 @@
             this.Controls.Add(this.txtNuevaContrasena);
             this.Controls.Add(this.lblCambiarContrasena);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmCambiarContrasena";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogoFrmRecuperarCuenta)).EndInit();
             this.ResumeLayout(false);

@@ -206,7 +206,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ClientSize = new System.Drawing.Size(304, 499);
             this.Controls.Add(this.picbxGoogle);
             this.Controls.Add(this.picbxFacebook);
             this.Controls.Add(this.lblÓ);
@@ -221,6 +221,8 @@
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.picbxLogoApp);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmNorthPearl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Noth Pearl";

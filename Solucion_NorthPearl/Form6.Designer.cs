@@ -46,7 +46,7 @@
             // 
             this.picbxLogofrm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogofrm2.BackgroundImage")));
             this.picbxLogofrm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picbxLogofrm2.Location = new System.Drawing.Point(219, 2);
+            this.picbxLogofrm2.Location = new System.Drawing.Point(208, 2);
             this.picbxLogofrm2.Name = "picbxLogofrm2";
             this.picbxLogofrm2.Size = new System.Drawing.Size(100, 50);
             this.picbxLogofrm2.TabIndex = 15;
@@ -659,7 +659,10 @@
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.lblEditarCuenta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmEditarCuenta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).EndInit();
             this.ResumeLayout(false);

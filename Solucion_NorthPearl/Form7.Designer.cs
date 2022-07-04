@@ -150,6 +150,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.picbxLogoApp);
             this.Controls.Add(this.btnCerrarSesión);
             this.Controls.Add(this.btnEditarCuenta);
@@ -159,6 +160,7 @@
             this.Controls.Add(this.picbxUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picbxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogoApp)).EndInit();

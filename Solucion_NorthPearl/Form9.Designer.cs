@@ -281,6 +281,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
+            this.ControlBox = false;
             this.Controls.Add(this.btnOki);
             this.Controls.Add(this.btnAgregarFotos);
             this.Controls.Add(this.lblimagenSitio);
@@ -303,6 +304,7 @@
             this.Controls.Add(this.lblRegistroSitio);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRegistroSitios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "North Pearl";
             this.Load += new System.EventHandler(this.FrmRegistroSitios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).EndInit();
