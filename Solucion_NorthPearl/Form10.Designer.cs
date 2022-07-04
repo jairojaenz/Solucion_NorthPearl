@@ -39,7 +39,7 @@
             // 
             // picImagenAmpli
             // 
-            this.picImagenAmpli.Location = new System.Drawing.Point(2, 0);
+            this.picImagenAmpli.Location = new System.Drawing.Point(3, 46);
             this.picImagenAmpli.Name = "picImagenAmpli";
             this.picImagenAmpli.Size = new System.Drawing.Size(299, 334);
             this.picImagenAmpli.TabIndex = 0;
@@ -50,7 +50,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblNombre.Location = new System.Drawing.Point(12, 347);
+            this.lblNombre.Location = new System.Drawing.Point(12, 390);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(72, 28);
             this.lblNombre.TabIndex = 1;
@@ -61,9 +61,9 @@
             this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOk.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnOk.Location = new System.Drawing.Point(242, 438);
+            this.btnOk.Location = new System.Drawing.Point(219, 441);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(51, 23);
+            this.btnOk.Size = new System.Drawing.Size(51, 28);
             this.btnOk.TabIndex = 2;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = false;
@@ -84,12 +84,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 473);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.picImagenAmpli);
-            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmImagenAmpliada";
             this.Text = "North Pearl";

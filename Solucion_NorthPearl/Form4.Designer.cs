@@ -44,7 +44,7 @@
             this.lblCambiarContrasena.AutoSize = true;
             this.lblCambiarContrasena.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCambiarContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblCambiarContrasena.Location = new System.Drawing.Point(57, 105);
+            this.lblCambiarContrasena.Location = new System.Drawing.Point(57, 119);
             this.lblCambiarContrasena.Name = "lblCambiarContrasena";
             this.lblCambiarContrasena.Size = new System.Drawing.Size(197, 26);
             this.lblCambiarContrasena.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // txtNuevaContrasena
             // 
-            this.txtNuevaContrasena.Location = new System.Drawing.Point(57, 188);
+            this.txtNuevaContrasena.Location = new System.Drawing.Point(57, 208);
             this.txtNuevaContrasena.Name = "txtNuevaContrasena";
             this.txtNuevaContrasena.Size = new System.Drawing.Size(197, 23);
             this.txtNuevaContrasena.TabIndex = 1;
@@ -62,7 +62,7 @@
             this.lblNuevaContrasena.AutoSize = true;
             this.lblNuevaContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNuevaContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNuevaContrasena.Location = new System.Drawing.Point(55, 169);
+            this.lblNuevaContrasena.Location = new System.Drawing.Point(55, 189);
             this.lblNuevaContrasena.Name = "lblNuevaContrasena";
             this.lblNuevaContrasena.Size = new System.Drawing.Size(170, 18);
             this.lblNuevaContrasena.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.lblConfirmarContrasena.AutoSize = true;
             this.lblConfirmarContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblConfirmarContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblConfirmarContrasena.Location = new System.Drawing.Point(55, 251);
+            this.lblConfirmarContrasena.Location = new System.Drawing.Point(55, 271);
             this.lblConfirmarContrasena.Name = "lblConfirmarContrasena";
             this.lblConfirmarContrasena.Size = new System.Drawing.Size(186, 18);
             this.lblConfirmarContrasena.TabIndex = 4;
@@ -81,7 +81,7 @@
             // 
             // txtConfirmarContrasena
             // 
-            this.txtConfirmarContrasena.Location = new System.Drawing.Point(57, 270);
+            this.txtConfirmarContrasena.Location = new System.Drawing.Point(57, 290);
             this.txtConfirmarContrasena.Name = "txtConfirmarContrasena";
             this.txtConfirmarContrasena.Size = new System.Drawing.Size(197, 23);
             this.txtConfirmarContrasena.TabIndex = 3;
@@ -97,7 +97,7 @@
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarCambios.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(86, 341);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(86, 363);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
             this.btnGuardarCambios.Size = new System.Drawing.Size(129, 28);
             this.btnGuardarCambios.TabIndex = 13;
@@ -109,9 +109,9 @@
             // 
             this.picbxLogoFrmRecuperarCuenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoFrmRecuperarCuenta.BackgroundImage")));
             this.picbxLogoFrmRecuperarCuenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(104, 23);
+            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(88, 23);
             this.picbxLogoFrmRecuperarCuenta.Name = "picbxLogoFrmRecuperarCuenta";
-            this.picbxLogoFrmRecuperarCuenta.Size = new System.Drawing.Size(100, 50);
+            this.picbxLogoFrmRecuperarCuenta.Size = new System.Drawing.Size(137, 75);
             this.picbxLogoFrmRecuperarCuenta.TabIndex = 14;
             this.picbxLogoFrmRecuperarCuenta.TabStop = false;
             // 
@@ -120,7 +120,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(304, 450);
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.picbxLogoFrmRecuperarCuenta);
             this.Controls.Add(this.btnGuardarCambios);
             this.Controls.Add(this.lblConfirmarContrasena);

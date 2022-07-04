@@ -57,7 +57,7 @@
             this.lblEditarCuenta.AutoSize = true;
             this.lblEditarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblEditarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblEditarCuenta.Location = new System.Drawing.Point(76, 46);
+            this.lblEditarCuenta.Location = new System.Drawing.Point(76, 74);
             this.lblEditarCuenta.Name = "lblEditarCuenta";
             this.lblEditarCuenta.Size = new System.Drawing.Size(137, 26);
             this.lblEditarCuenta.TabIndex = 14;
@@ -65,7 +65,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(60, 131);
+            this.txtNombre.Location = new System.Drawing.Point(60, 169);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(184, 23);
             this.txtNombre.TabIndex = 17;
@@ -75,7 +75,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNombre.Location = new System.Drawing.Point(60, 104);
+            this.lblNombre.Location = new System.Drawing.Point(60, 142);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(58, 18);
             this.lblNombre.TabIndex = 16;
@@ -339,7 +339,7 @@
             "Yibuti",
             "Zambia",
             "Zimbabue"});
-            this.comboBox1.Location = new System.Drawing.Point(60, 209);
+            this.comboBox1.Location = new System.Drawing.Point(60, 247);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(184, 23);
             this.comboBox1.TabIndex = 19;
@@ -349,7 +349,7 @@
             this.lblNacionalidad.AutoSize = true;
             this.lblNacionalidad.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNacionalidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNacionalidad.Location = new System.Drawing.Point(60, 181);
+            this.lblNacionalidad.Location = new System.Drawing.Point(60, 219);
             this.lblNacionalidad.Name = "lblNacionalidad";
             this.lblNacionalidad.Size = new System.Drawing.Size(89, 18);
             this.lblNacionalidad.TabIndex = 18;
@@ -357,7 +357,7 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(137, 292);
+            this.txtTelefono.Location = new System.Drawing.Point(137, 330);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(107, 23);
             this.txtTelefono.TabIndex = 22;
@@ -607,7 +607,7 @@
             "+690",
             "+691",
             "+692"});
-            this.cbbxEntrada.Location = new System.Drawing.Point(60, 292);
+            this.cbbxEntrada.Location = new System.Drawing.Point(60, 330);
             this.cbbxEntrada.Name = "cbbxEntrada";
             this.cbbxEntrada.Size = new System.Drawing.Size(71, 23);
             this.cbbxEntrada.TabIndex = 21;
@@ -618,7 +618,7 @@
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTelefono.Location = new System.Drawing.Point(60, 271);
+            this.lblTelefono.Location = new System.Drawing.Point(60, 309);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(57, 18);
             this.lblTelefono.TabIndex = 20;
@@ -634,7 +634,7 @@
             this.btnGuarardarCambiosFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuarardarCambiosFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuarardarCambiosFrm2.ForeColor = System.Drawing.Color.White;
-            this.btnGuarardarCambiosFrm2.Location = new System.Drawing.Point(81, 365);
+            this.btnGuarardarCambiosFrm2.Location = new System.Drawing.Point(81, 396);
             this.btnGuarardarCambiosFrm2.Name = "btnGuarardarCambiosFrm2";
             this.btnGuarardarCambiosFrm2.Size = new System.Drawing.Size(132, 35);
             this.btnGuarardarCambiosFrm2.TabIndex = 23;
@@ -647,7 +647,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(304, 458);
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.btnGuarardarCambiosFrm2);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.cbbxEntrada);

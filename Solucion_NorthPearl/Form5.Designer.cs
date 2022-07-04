@@ -319,7 +319,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 463);
+            this.textBox1.Location = new System.Drawing.Point(58, 451);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(165, 23);
             this.textBox1.TabIndex = 24;
@@ -328,7 +328,7 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 463);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 452);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(31, 23);
             this.pictureBox1.TabIndex = 25;
@@ -341,9 +341,9 @@
             this.btnBuscarFrm5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarFrm5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnBuscarFrm5.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarFrm5.Location = new System.Drawing.Point(230, 463);
+            this.btnBuscarFrm5.Location = new System.Drawing.Point(230, 449);
             this.btnBuscarFrm5.Name = "btnBuscarFrm5";
-            this.btnBuscarFrm5.Size = new System.Drawing.Size(62, 28);
+            this.btnBuscarFrm5.Size = new System.Drawing.Size(62, 27);
             this.btnBuscarFrm5.TabIndex = 26;
             this.btnBuscarFrm5.Text = "Buscar";
             this.btnBuscarFrm5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -355,7 +355,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(304, 498);
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.btnBuscarFrm5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);

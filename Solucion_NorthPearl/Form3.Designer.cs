@@ -52,11 +52,11 @@
             // lblRecuperarCuenta
             // 
             this.lblRecuperarCuenta.AutoSize = true;
-            this.lblRecuperarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRecuperarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblRecuperarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblRecuperarCuenta.Location = new System.Drawing.Point(97, 72);
+            this.lblRecuperarCuenta.Location = new System.Drawing.Point(29, 27);
             this.lblRecuperarCuenta.Name = "lblRecuperarCuenta";
-            this.lblRecuperarCuenta.Size = new System.Drawing.Size(116, 18);
+            this.lblRecuperarCuenta.Size = new System.Drawing.Size(144, 22);
             this.lblRecuperarCuenta.TabIndex = 0;
             this.lblRecuperarCuenta.Text = "Recuperar Cuenta";
             // 
@@ -64,9 +64,9 @@
             // 
             this.picbxLogoFrmRecuperarCuenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoFrmRecuperarCuenta.BackgroundImage")));
             this.picbxLogoFrmRecuperarCuenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(202, 12);
+            this.picbxLogoFrmRecuperarCuenta.Location = new System.Drawing.Point(213, 3);
             this.picbxLogoFrmRecuperarCuenta.Name = "picbxLogoFrmRecuperarCuenta";
-            this.picbxLogoFrmRecuperarCuenta.Size = new System.Drawing.Size(100, 50);
+            this.picbxLogoFrmRecuperarCuenta.Size = new System.Drawing.Size(89, 50);
             this.picbxLogoFrmRecuperarCuenta.TabIndex = 1;
             this.picbxLogoFrmRecuperarCuenta.TabStop = false;
             // 
@@ -74,7 +74,7 @@
             // 
             this.lblModoDeRecuperacion.AutoSize = true;
             this.lblModoDeRecuperacion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblModoDeRecuperacion.Location = new System.Drawing.Point(106, 98);
+            this.lblModoDeRecuperacion.Location = new System.Drawing.Point(95, 59);
             this.lblModoDeRecuperacion.Name = "lblModoDeRecuperacion";
             this.lblModoDeRecuperacion.Size = new System.Drawing.Size(145, 18);
             this.lblModoDeRecuperacion.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 
             // txtCorreoFrmRecuperarCuenta
             // 
-            this.txtCorreoFrmRecuperarCuenta.Location = new System.Drawing.Point(60, 210);
+            this.txtCorreoFrmRecuperarCuenta.Location = new System.Drawing.Point(49, 171);
             this.txtCorreoFrmRecuperarCuenta.Name = "txtCorreoFrmRecuperarCuenta";
             this.txtCorreoFrmRecuperarCuenta.Size = new System.Drawing.Size(191, 23);
             this.txtCorreoFrmRecuperarCuenta.TabIndex = 4;
@@ -106,7 +106,7 @@
             this.lblEscrbirCorreo.AutoSize = true;
             this.lblEscrbirCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblEscrbirCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblEscrbirCorreo.Location = new System.Drawing.Point(60, 189);
+            this.lblEscrbirCorreo.Location = new System.Drawing.Point(49, 150);
             this.lblEscrbirCorreo.Name = "lblEscrbirCorreo";
             this.lblEscrbirCorreo.Size = new System.Drawing.Size(111, 18);
             this.lblEscrbirCorreo.TabIndex = 5;
@@ -116,7 +116,7 @@
             // 
             this.grpbxSelecModoRecup.Controls.Add(this.rbtnMensaje);
             this.grpbxSelecModoRecup.Controls.Add(this.rbtnCorreo);
-            this.grpbxSelecModoRecup.Location = new System.Drawing.Point(60, 98);
+            this.grpbxSelecModoRecup.Location = new System.Drawing.Point(49, 59);
             this.grpbxSelecModoRecup.Name = "grpbxSelecModoRecup";
             this.grpbxSelecModoRecup.Size = new System.Drawing.Size(200, 88);
             this.grpbxSelecModoRecup.TabIndex = 6;
@@ -138,7 +138,7 @@
             this.lblTlfnFrmRecup.AutoSize = true;
             this.lblTlfnFrmRecup.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTlfnFrmRecup.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTlfnFrmRecup.Location = new System.Drawing.Point(62, 243);
+            this.lblTlfnFrmRecup.Location = new System.Drawing.Point(51, 204);
             this.lblTlfnFrmRecup.Name = "lblTlfnFrmRecup";
             this.lblTlfnFrmRecup.Size = new System.Drawing.Size(125, 18);
             this.lblTlfnFrmRecup.TabIndex = 8;
@@ -146,7 +146,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(62, 264);
+            this.textBox1.Location = new System.Drawing.Point(51, 225);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 23);
             this.textBox1.TabIndex = 7;
@@ -161,7 +161,7 @@
             this.btnEnviarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnviarCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEnviarCodigo.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarCodigo.Location = new System.Drawing.Point(106, 304);
+            this.btnEnviarCodigo.Location = new System.Drawing.Point(95, 265);
             this.btnEnviarCodigo.Name = "btnEnviarCodigo";
             this.btnEnviarCodigo.Size = new System.Drawing.Size(109, 28);
             this.btnEnviarCodigo.TabIndex = 13;
@@ -171,7 +171,7 @@
             // 
             // txtIngresarCodigo
             // 
-            this.txtIngresarCodigo.Location = new System.Drawing.Point(60, 362);
+            this.txtIngresarCodigo.Location = new System.Drawing.Point(49, 323);
             this.txtIngresarCodigo.Name = "txtIngresarCodigo";
             this.txtIngresarCodigo.Size = new System.Drawing.Size(191, 23);
             this.txtIngresarCodigo.TabIndex = 14;
@@ -181,7 +181,7 @@
             this.lblIngreseCodigo.AutoSize = true;
             this.lblIngreseCodigo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblIngreseCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblIngreseCodigo.Location = new System.Drawing.Point(60, 341);
+            this.lblIngreseCodigo.Location = new System.Drawing.Point(49, 302);
             this.lblIngreseCodigo.Name = "lblIngreseCodigo";
             this.lblIngreseCodigo.Size = new System.Drawing.Size(113, 18);
             this.lblIngreseCodigo.TabIndex = 15;
@@ -197,7 +197,7 @@
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnConfirmar.ForeColor = System.Drawing.Color.White;
-            this.btnConfirmar.Location = new System.Drawing.Point(95, 401);
+            this.btnConfirmar.Location = new System.Drawing.Point(84, 362);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(129, 28);
             this.btnConfirmar.TabIndex = 16;
@@ -214,7 +214,7 @@
             this.btnCambiarContra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCambiarContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCambiarContra.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarContra.Location = new System.Drawing.Point(78, 447);
+            this.btnCambiarContra.Location = new System.Drawing.Point(67, 408);
             this.btnCambiarContra.Name = "btnCambiarContra";
             this.btnCambiarContra.Size = new System.Drawing.Size(165, 28);
             this.btnCambiarContra.TabIndex = 17;
@@ -232,7 +232,7 @@
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnCancelar.Location = new System.Drawing.Point(106, 491);
+            this.btnCancelar.Location = new System.Drawing.Point(95, 452);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(109, 28);
             this.btnCancelar.TabIndex = 18;
@@ -246,7 +246,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(304, 533);
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnCambiarContra);
             this.Controls.Add(this.btnConfirmar);

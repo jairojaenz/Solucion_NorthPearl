@@ -73,7 +73,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(190, 551);
+            this.btnGuardar.Location = new System.Drawing.Point(190, 453);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(97, 30);
             this.btnGuardar.TabIndex = 26;
@@ -84,7 +84,7 @@
             // txtNombreDueno
             // 
             this.txtNombreDueno.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNombreDueno.Location = new System.Drawing.Point(8, 218);
+            this.txtNombreDueno.Location = new System.Drawing.Point(8, 169);
             this.txtNombreDueno.Name = "txtNombreDueno";
             this.txtNombreDueno.Size = new System.Drawing.Size(279, 24);
             this.txtNombreDueno.TabIndex = 21;
@@ -94,7 +94,7 @@
             this.lblNombreDueno.AutoSize = true;
             this.lblNombreDueno.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNombreDueno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNombreDueno.Location = new System.Drawing.Point(11, 194);
+            this.lblNombreDueno.Location = new System.Drawing.Point(11, 145);
             this.lblNombreDueno.Name = "lblNombreDueno";
             this.lblNombreDueno.Size = new System.Drawing.Size(229, 36);
             this.lblNombreDueno.TabIndex = 20;
@@ -103,7 +103,7 @@
             // txtUbicacionSitio
             // 
             this.txtUbicacionSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUbicacionSitio.Location = new System.Drawing.Point(8, 166);
+            this.txtUbicacionSitio.Location = new System.Drawing.Point(8, 117);
             this.txtUbicacionSitio.Name = "txtUbicacionSitio";
             this.txtUbicacionSitio.Size = new System.Drawing.Size(279, 24);
             this.txtUbicacionSitio.TabIndex = 19;
@@ -113,7 +113,7 @@
             this.lblUbicacionSitio.AutoSize = true;
             this.lblUbicacionSitio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblUbicacionSitio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblUbicacionSitio.Location = new System.Drawing.Point(12, 139);
+            this.lblUbicacionSitio.Location = new System.Drawing.Point(12, 90);
             this.lblUbicacionSitio.Name = "lblUbicacionSitio";
             this.lblUbicacionSitio.Size = new System.Drawing.Size(180, 18);
             this.lblUbicacionSitio.TabIndex = 18;
@@ -122,7 +122,7 @@
             // txtNombreSitio
             // 
             this.txtNombreSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNombreSitio.Location = new System.Drawing.Point(8, 99);
+            this.txtNombreSitio.Location = new System.Drawing.Point(8, 62);
             this.txtNombreSitio.Name = "txtNombreSitio";
             this.txtNombreSitio.Size = new System.Drawing.Size(279, 24);
             this.txtNombreSitio.TabIndex = 17;
@@ -132,7 +132,7 @@
             this.lblNombreSitio.AutoSize = true;
             this.lblNombreSitio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNombreSitio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNombreSitio.Location = new System.Drawing.Point(13, 78);
+            this.lblNombreSitio.Location = new System.Drawing.Point(13, 41);
             this.lblNombreSitio.Name = "lblNombreSitio";
             this.lblNombreSitio.Size = new System.Drawing.Size(155, 18);
             this.lblNombreSitio.TabIndex = 16;
@@ -152,7 +152,7 @@
             // txtNumeroTelefono
             // 
             this.txtNumeroTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNumeroTelefono.Location = new System.Drawing.Point(8, 278);
+            this.txtNumeroTelefono.Location = new System.Drawing.Point(8, 224);
             this.txtNumeroTelefono.Name = "txtNumeroTelefono";
             this.txtNumeroTelefono.Size = new System.Drawing.Size(279, 24);
             this.txtNumeroTelefono.TabIndex = 29;
@@ -162,7 +162,7 @@
             this.lblNumeroTelefono.AutoSize = true;
             this.lblNumeroTelefono.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNumeroTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNumeroTelefono.Location = new System.Drawing.Point(13, 250);
+            this.lblNumeroTelefono.Location = new System.Drawing.Point(13, 196);
             this.lblNumeroTelefono.Name = "lblNumeroTelefono";
             this.lblNumeroTelefono.Size = new System.Drawing.Size(234, 18);
             this.lblNumeroTelefono.TabIndex = 28;
@@ -171,7 +171,7 @@
             // txtCorreoSitio
             // 
             this.txtCorreoSitio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtCorreoSitio.Location = new System.Drawing.Point(8, 336);
+            this.txtCorreoSitio.Location = new System.Drawing.Point(8, 281);
             this.txtCorreoSitio.Name = "txtCorreoSitio";
             this.txtCorreoSitio.Size = new System.Drawing.Size(279, 24);
             this.txtCorreoSitio.TabIndex = 31;
@@ -182,7 +182,7 @@
             this.lblCorreoSitio.AutoSize = true;
             this.lblCorreoSitio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCorreoSitio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblCorreoSitio.Location = new System.Drawing.Point(12, 307);
+            this.lblCorreoSitio.Location = new System.Drawing.Point(12, 252);
             this.lblCorreoSitio.Name = "lblCorreoSitio";
             this.lblCorreoSitio.Size = new System.Drawing.Size(226, 18);
             this.lblCorreoSitio.TabIndex = 30;
@@ -191,7 +191,7 @@
             // txtHorarioAtencion
             // 
             this.txtHorarioAtencion.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtHorarioAtencion.Location = new System.Drawing.Point(8, 395);
+            this.txtHorarioAtencion.Location = new System.Drawing.Point(8, 340);
             this.txtHorarioAtencion.Name = "txtHorarioAtencion";
             this.txtHorarioAtencion.Size = new System.Drawing.Size(279, 24);
             this.txtHorarioAtencion.TabIndex = 33;
@@ -202,7 +202,7 @@
             this.lblHorarioAtencion.AutoSize = true;
             this.lblHorarioAtencion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblHorarioAtencion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblHorarioAtencion.Location = new System.Drawing.Point(11, 365);
+            this.lblHorarioAtencion.Location = new System.Drawing.Point(11, 310);
             this.lblHorarioAtencion.Name = "lblHorarioAtencion";
             this.lblHorarioAtencion.Size = new System.Drawing.Size(236, 18);
             this.lblHorarioAtencion.TabIndex = 32;
@@ -211,7 +211,7 @@
             // txtCostoServicio
             // 
             this.txtCostoServicio.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtCostoServicio.Location = new System.Drawing.Point(8, 460);
+            this.txtCostoServicio.Location = new System.Drawing.Point(8, 397);
             this.txtCostoServicio.Name = "txtCostoServicio";
             this.txtCostoServicio.Size = new System.Drawing.Size(279, 24);
             this.txtCostoServicio.TabIndex = 35;
@@ -221,7 +221,7 @@
             this.lblCostoServicio.AutoSize = true;
             this.lblCostoServicio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCostoServicio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblCostoServicio.Location = new System.Drawing.Point(12, 431);
+            this.lblCostoServicio.Location = new System.Drawing.Point(12, 368);
             this.lblCostoServicio.Name = "lblCostoServicio";
             this.lblCostoServicio.Size = new System.Drawing.Size(218, 18);
             this.lblCostoServicio.TabIndex = 34;
@@ -232,7 +232,7 @@
             this.lblimagenSitio.AutoSize = true;
             this.lblimagenSitio.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblimagenSitio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblimagenSitio.Location = new System.Drawing.Point(8, 520);
+            this.lblimagenSitio.Location = new System.Drawing.Point(8, 430);
             this.lblimagenSitio.Name = "lblimagenSitio";
             this.lblimagenSitio.Size = new System.Drawing.Size(89, 18);
             this.lblimagenSitio.TabIndex = 36;
@@ -249,7 +249,7 @@
             this.btnAgregarFotos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarFotos.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAgregarFotos.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarFotos.Location = new System.Drawing.Point(6, 551);
+            this.btnAgregarFotos.Location = new System.Drawing.Point(6, 453);
             this.btnAgregarFotos.Name = "btnAgregarFotos";
             this.btnAgregarFotos.Size = new System.Drawing.Size(97, 30);
             this.btnAgregarFotos.TabIndex = 37;
@@ -265,7 +265,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 585);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.btnAgregarFotos);
             this.Controls.Add(this.lblimagenSitio);
             this.Controls.Add(this.txtCostoServicio);

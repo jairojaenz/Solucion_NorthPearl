@@ -51,7 +51,7 @@
             // 
             this.picbxLogoApp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoApp.BackgroundImage")));
             this.picbxLogoApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogoApp.Location = new System.Drawing.Point(68, 21);
+            this.picbxLogoApp.Location = new System.Drawing.Point(68, 27);
             this.picbxLogoApp.Name = "picbxLogoApp";
             this.picbxLogoApp.Size = new System.Drawing.Size(164, 111);
             this.picbxLogoApp.TabIndex = 2;
@@ -62,7 +62,7 @@
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblCorreo.Location = new System.Drawing.Point(30, 154);
+            this.lblCorreo.Location = new System.Drawing.Point(30, 165);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(50, 18);
             this.lblCorreo.TabIndex = 3;
@@ -71,14 +71,14 @@
             // txtCorreo
             // 
             this.txtCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtCorreo.Location = new System.Drawing.Point(30, 172);
+            this.txtCorreo.Location = new System.Drawing.Point(30, 183);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(233, 23);
             this.txtCorreo.TabIndex = 4;
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(30, 225);
+            this.txtContrasena.Location = new System.Drawing.Point(30, 236);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.PasswordChar = '*';
             this.txtContrasena.Size = new System.Drawing.Size(233, 23);
@@ -89,7 +89,7 @@
             this.llbContrasena.AutoSize = true;
             this.llbContrasena.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.llbContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.llbContrasena.Location = new System.Drawing.Point(30, 207);
+            this.llbContrasena.Location = new System.Drawing.Point(30, 218);
             this.llbContrasena.Name = "llbContrasena";
             this.llbContrasena.Size = new System.Drawing.Size(77, 18);
             this.llbContrasena.TabIndex = 5;
@@ -100,7 +100,7 @@
             this.lblRecupContra.AutoSize = true;
             this.lblRecupContra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblRecupContra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRecupContra.Location = new System.Drawing.Point(44, 268);
+            this.lblRecupContra.Location = new System.Drawing.Point(36, 273);
             this.lblRecupContra.Name = "lblRecupContra";
             this.lblRecupContra.Size = new System.Drawing.Size(155, 18);
             this.lblRecupContra.TabIndex = 7;
@@ -113,7 +113,7 @@
             this.linklblRecuperar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linklblRecuperar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linklblRecuperar.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.linklblRecuperar.Location = new System.Drawing.Point(192, 268);
+            this.linklblRecuperar.Location = new System.Drawing.Point(184, 273);
             this.linklblRecuperar.Name = "linklblRecuperar";
             this.linklblRecuperar.Size = new System.Drawing.Size(113, 18);
             this.linklblRecuperar.TabIndex = 8;
@@ -133,7 +133,7 @@
             this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnCrearCuenta.Location = new System.Drawing.Point(28, 307);
+            this.btnCrearCuenta.Location = new System.Drawing.Point(44, 314);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
             this.btnCrearCuenta.Size = new System.Drawing.Size(102, 28);
             this.btnCrearCuenta.TabIndex = 9;
@@ -152,7 +152,7 @@
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciarSesion.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnIniciarSesion.ForeColor = System.Drawing.Color.White;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(166, 307);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(166, 314);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
             this.btnIniciarSesion.Size = new System.Drawing.Size(106, 28);
             this.btnIniciarSesion.TabIndex = 10;
@@ -164,7 +164,7 @@
             // 
             this.lblContinuarCon.AutoSize = true;
             this.lblContinuarCon.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblContinuarCon.Location = new System.Drawing.Point(107, 343);
+            this.lblContinuarCon.Location = new System.Drawing.Point(107, 360);
             this.lblContinuarCon.Name = "lblContinuarCon";
             this.lblContinuarCon.Size = new System.Drawing.Size(103, 18);
             this.lblContinuarCon.TabIndex = 11;
@@ -174,7 +174,7 @@
             // 
             this.lblÓ.AutoSize = true;
             this.lblÓ.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblÓ.Location = new System.Drawing.Point(145, 397);
+            this.lblÓ.Location = new System.Drawing.Point(145, 421);
             this.lblÓ.Name = "lblÓ";
             this.lblÓ.Size = new System.Drawing.Size(18, 18);
             this.lblÓ.TabIndex = 13;
@@ -184,7 +184,7 @@
             // 
             this.picbxFacebook.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxFacebook.BackgroundImage")));
             this.picbxFacebook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picbxFacebook.Location = new System.Drawing.Point(136, 364);
+            this.picbxFacebook.Location = new System.Drawing.Point(136, 388);
             this.picbxFacebook.Name = "picbxFacebook";
             this.picbxFacebook.Size = new System.Drawing.Size(35, 30);
             this.picbxFacebook.TabIndex = 15;
@@ -194,7 +194,7 @@
             // 
             this.picbxGoogle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxGoogle.BackgroundImage")));
             this.picbxGoogle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picbxGoogle.Location = new System.Drawing.Point(136, 418);
+            this.picbxGoogle.Location = new System.Drawing.Point(136, 445);
             this.picbxGoogle.Name = "picbxGoogle";
             this.picbxGoogle.Size = new System.Drawing.Size(35, 30);
             this.picbxGoogle.TabIndex = 16;
@@ -206,7 +206,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(304, 455);
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.picbxGoogle);
             this.Controls.Add(this.picbxFacebook);
             this.Controls.Add(this.lblÓ);

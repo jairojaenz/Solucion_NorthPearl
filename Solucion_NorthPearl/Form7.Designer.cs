@@ -53,11 +53,11 @@
             // lblMiCuenta
             // 
             this.lblMiCuenta.AutoSize = true;
-            this.lblMiCuenta.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMiCuenta.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMiCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblMiCuenta.Location = new System.Drawing.Point(108, 138);
+            this.lblMiCuenta.Location = new System.Drawing.Point(94, 140);
             this.lblMiCuenta.Name = "lblMiCuenta";
-            this.lblMiCuenta.Size = new System.Drawing.Size(85, 21);
+            this.lblMiCuenta.Size = new System.Drawing.Size(107, 26);
             this.lblMiCuenta.TabIndex = 23;
             this.lblMiCuenta.Text = "Mi Cuenta";
             // 
@@ -71,7 +71,7 @@
             this.btnSalirFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalirFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSalirFrm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnSalirFrm2.Location = new System.Drawing.Point(101, 353);
+            this.btnSalirFrm2.Location = new System.Drawing.Point(101, 376);
             this.btnSalirFrm2.Name = "btnSalirFrm2";
             this.btnSalirFrm2.Size = new System.Drawing.Size(97, 28);
             this.btnSalirFrm2.TabIndex = 27;
@@ -88,7 +88,7 @@
             this.btnCambiarContraseña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCambiarContraseña.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCambiarContraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnCambiarContraseña.Location = new System.Drawing.Point(73, 233);
+            this.btnCambiarContraseña.Location = new System.Drawing.Point(73, 256);
             this.btnCambiarContraseña.Name = "btnCambiarContraseña";
             this.btnCambiarContraseña.Size = new System.Drawing.Size(154, 31);
             this.btnCambiarContraseña.TabIndex = 28;
@@ -106,7 +106,7 @@
             this.btnEditarCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditarCuenta.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEditarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnEditarCuenta.Location = new System.Drawing.Point(73, 186);
+            this.btnEditarCuenta.Location = new System.Drawing.Point(73, 209);
             this.btnEditarCuenta.Name = "btnEditarCuenta";
             this.btnEditarCuenta.Size = new System.Drawing.Size(154, 29);
             this.btnEditarCuenta.TabIndex = 29;
@@ -124,7 +124,7 @@
             this.btnCerrarSesión.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesión.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCerrarSesión.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnCerrarSesión.Location = new System.Drawing.Point(73, 279);
+            this.btnCerrarSesión.Location = new System.Drawing.Point(73, 302);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
             this.btnCerrarSesión.Size = new System.Drawing.Size(154, 30);
             this.btnCerrarSesión.TabIndex = 30;
@@ -136,7 +136,7 @@
             // 
             this.picbxLogoApp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogoApp.BackgroundImage")));
             this.picbxLogoApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogoApp.Location = new System.Drawing.Point(212, 1);
+            this.picbxLogoApp.Location = new System.Drawing.Point(210, 2);
             this.picbxLogoApp.Name = "picbxLogoApp";
             this.picbxLogoApp.Size = new System.Drawing.Size(100, 50);
             this.picbxLogoApp.TabIndex = 31;
@@ -147,7 +147,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 462);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.picbxLogoApp);
             this.Controls.Add(this.btnCerrarSesión);
             this.Controls.Add(this.btnEditarCuenta);

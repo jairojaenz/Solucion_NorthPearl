@@ -41,13 +41,13 @@
             // lblSitioPregunta
             // 
             this.lblSitioPregunta.AutoSize = true;
-            this.lblSitioPregunta.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSitioPregunta.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblSitioPregunta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblSitioPregunta.Location = new System.Drawing.Point(40, 74);
+            this.lblSitioPregunta.Location = new System.Drawing.Point(30, 90);
             this.lblSitioPregunta.Name = "lblSitioPregunta";
-            this.lblSitioPregunta.Size = new System.Drawing.Size(221, 26);
+            this.lblSitioPregunta.Size = new System.Drawing.Size(243, 28);
             this.lblSitioPregunta.TabIndex = 0;
-            this.lblSitioPregunta.Text = "¿Que le parecio el sitio?";
+            this.lblSitioPregunta.Text = "¿Qué le parecio el sitio?";
             // 
             // picbxLogofrm2
             // 
@@ -62,10 +62,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(12, 174);
+            this.textBox1.Location = new System.Drawing.Point(3, 174);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(280, 166);
+            this.textBox1.Size = new System.Drawing.Size(297, 178);
             this.textBox1.TabIndex = 22;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -73,22 +73,22 @@
             // 
             this.lblIngreResena.AutoSize = true;
             this.lblIngreResena.BackColor = System.Drawing.Color.Transparent;
-            this.lblIngreResena.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIngreResena.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblIngreResena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblIngreResena.Location = new System.Drawing.Point(12, 147);
             this.lblIngreResena.Name = "lblIngreResena";
-            this.lblIngreResena.Size = new System.Drawing.Size(137, 21);
+            this.lblIngreResena.Size = new System.Drawing.Size(141, 22);
             this.lblIngreResena.TabIndex = 23;
             this.lblIngreResena.Text = "Escriba su reseña:";
             // 
             // lblGracias
             // 
             this.lblGracias.AutoSize = true;
-            this.lblGracias.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGracias.Font = new System.Drawing.Font("Palatino Linotype", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGracias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblGracias.Location = new System.Drawing.Point(40, 372);
             this.lblGracias.Name = "lblGracias";
-            this.lblGracias.Size = new System.Drawing.Size(221, 21);
+            this.lblGracias.Size = new System.Drawing.Size(235, 23);
             this.lblGracias.TabIndex = 24;
             this.lblGracias.Text = "Gracias por su contribuciòn...";
             this.lblGracias.Click += new System.EventHandler(this.label1_Click);
@@ -99,9 +99,9 @@
             this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnviar.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEnviar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEnviar.Location = new System.Drawing.Point(217, 436);
+            this.btnEnviar.Location = new System.Drawing.Point(204, 435);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(75, 23);
+            this.btnEnviar.Size = new System.Drawing.Size(75, 28);
             this.btnEnviar.TabIndex = 25;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = false;
@@ -110,8 +110,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(304, 471);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(304, 491);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.lblGracias);
             this.Controls.Add(this.lblIngreResena);
