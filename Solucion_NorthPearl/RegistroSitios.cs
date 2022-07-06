@@ -106,7 +106,7 @@ namespace Solucion_NorthPearl
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
+            FrmConfiguracion miforma5 = new FrmConfiguracion();
             miforma5.Show();
             this.Hide();
 

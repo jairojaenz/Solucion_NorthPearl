@@ -150,6 +150,7 @@
             this.btnOkis.TabIndex = 11;
             this.btnOkis.Text = "Ok";
             this.btnOkis.UseVisualStyleBackColor = false;
+            this.btnOkis.Click += new System.EventHandler(this.btnOkis_Click);
             // 
             // FrmAcercaCreadores
             // 

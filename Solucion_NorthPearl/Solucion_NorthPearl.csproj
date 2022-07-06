@@ -19,6 +19,7 @@
     <Content Include="bin\Debug\net6.0-windows\MIRADOR CALVARIO.jpg" />
     <Content Include="bin\Debug\net6.0-windows\MUSEO CFA.jpg" />
     <Content Include="bin\Debug\net6.0-windows\MUSEO COFFEE.jpg" />
+    <Content Include="bin\Debug\net6.0-windows\registro de reseñas.txt" />
     <Content Include="bin\Debug\net6.0-windows\SELVA NEGRA.jpg" />
     <Content Include="bin\Debug\net6.0-windows\usuarios.txt" />
   </ItemGroup>

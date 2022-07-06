@@ -168,7 +168,7 @@ namespace Solucion_NorthPearl
         private void picbxMenu_Click(object sender, EventArgs e)
         {
 
-            FrmRegistroSitios miforma5 = new FrmRegistroSitios();
+            FrmConfiguracion miforma5 = new FrmConfiguracion();
             miforma5.Show();
             this.Hide();
         }

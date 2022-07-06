@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalificacion));
             this.lblSitioPregunta = new System.Windows.Forms.Label();
             this.picbxLogofrm2 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtResena = new System.Windows.Forms.TextBox();
             this.lblIngreResena = new System.Windows.Forms.Label();
             this.lblGracias = new System.Windows.Forms.Label();
             this.btnEnviar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,15 +60,15 @@
             this.picbxLogofrm2.TabIndex = 21;
             this.picbxLogofrm2.TabStop = false;
             // 
-            // textBox1
+            // txtResena
             // 
-            this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(3, 174);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(297, 178);
-            this.textBox1.TabIndex = 22;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtResena.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtResena.Location = new System.Drawing.Point(3, 174);
+            this.txtResena.Multiline = true;
+            this.txtResena.Name = "txtResena";
+            this.txtResena.Size = new System.Drawing.Size(297, 178);
+            this.txtResena.TabIndex = 22;
+            this.txtResena.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblIngreResena
             // 
@@ -107,6 +108,19 @@
             this.btnEnviar.UseVisualStyleBackColor = false;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
+            this.btnSalir.Location = new System.Drawing.Point(17, 435);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(67, 28);
+            this.btnSalir.TabIndex = 26;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // FrmCalificacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -115,10 +129,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 491);
             this.ControlBox = false;
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.lblGracias);
             this.Controls.Add(this.lblIngreResena);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtResena);
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.lblSitioPregunta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -135,9 +150,10 @@
 
         private Label lblSitioPregunta;
         private PictureBox picbxLogofrm2;
-        private TextBox textBox1;
+        private TextBox txtResena;
         private Label lblIngreResena;
         private Label lblGracias;
         private Button btnEnviar;
+        private Button btnSalir;
     }
 }

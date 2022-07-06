@@ -16,5 +16,12 @@ namespace Solucion_NorthPearl
         {
             InitializeComponent();
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            FrmConfiguracion miforma5 = new FrmConfiguracion();
+            miforma5.Show();
+            this.Hide();
+        }
     }
 }
