@@ -43,6 +43,7 @@
             this.btnCrearFrm2 = new System.Windows.Forms.Button();
             this.picbxLogofrm2 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picbxLogofrm2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -404,7 +405,7 @@
             this.btnCrearFrm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearFrm2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCrearFrm2.ForeColor = System.Drawing.Color.White;
-            this.btnCrearFrm2.Location = new System.Drawing.Point(90, 449);
+            this.btnCrearFrm2.Location = new System.Drawing.Point(195, 451);
             this.btnCrearFrm2.Name = "btnCrearFrm2";
             this.btnCrearFrm2.Size = new System.Drawing.Size(97, 28);
             this.btnCrearFrm2.TabIndex = 12;
@@ -685,6 +686,25 @@
             this.comboBox1.Size = new System.Drawing.Size(184, 23);
             this.comboBox1.TabIndex = 14;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSalir.FlatAppearance.BorderSize = 2;
+            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
+            this.btnSalir.Location = new System.Drawing.Point(20, 451);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(97, 28);
+            this.btnSalir.TabIndex = 16;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // frmCrearCuenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -694,6 +714,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(304, 491);
             this.ControlBox = false;
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.picbxLogofrm2);
             this.Controls.Add(this.btnCrearFrm2);
@@ -736,5 +757,6 @@
         private Button btnCrearFrm2;
         private PictureBox picbxLogofrm2;
         private ComboBox comboBox1;
+        private Button btnSalir;
     }
 }

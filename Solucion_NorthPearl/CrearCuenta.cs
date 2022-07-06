@@ -22,13 +22,6 @@ namespace Solucion_NorthPearl
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-                
-        }
-
         private void btnCrearFrm2_Click(object sender, EventArgs e)
         {
             encontrado = false;
@@ -72,6 +65,13 @@ namespace Solucion_NorthPearl
             {
                 MessageBox.Show("Faltan Datos", "aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            frmNorthPearl abrir = new frmNorthPearl();
+            this.Close();
+            abrir.Show();
         }
     }
 }
