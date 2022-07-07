@@ -73,9 +73,9 @@
             // 
             this.picbxLogofrm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbxLogofrm2.BackgroundImage")));
             this.picbxLogofrm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picbxLogofrm2.Location = new System.Drawing.Point(234, 6);
+            this.picbxLogofrm2.Location = new System.Drawing.Point(234, 0);
             this.picbxLogofrm2.Name = "picbxLogofrm2";
-            this.picbxLogofrm2.Size = new System.Drawing.Size(67, 37);
+            this.picbxLogofrm2.Size = new System.Drawing.Size(67, 43);
             this.picbxLogofrm2.TabIndex = 21;
             this.picbxLogofrm2.TabStop = false;
             this.picbxLogofrm2.Click += new System.EventHandler(this.picbxLogofrm2_Click);

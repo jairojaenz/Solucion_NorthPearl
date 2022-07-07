@@ -219,7 +219,7 @@
             // 
             this.btnAmpliar.BackColor = System.Drawing.Color.Transparent;
             this.btnAmpliar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAmpliar.BackgroundImage")));
-            this.btnAmpliar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAmpliar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAmpliar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAmpliar.ForeColor = System.Drawing.Color.Transparent;
             this.btnAmpliar.Location = new System.Drawing.Point(264, 184);

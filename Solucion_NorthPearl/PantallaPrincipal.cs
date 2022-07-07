@@ -61,7 +61,7 @@ namespace Solucion_NorthPearl
             {
                 busqueda = btnBuscarFrm5.Text;
                 StreamReader leer;
-                leer = File.OpenText("busqueda.txt");
+                leer = File.OpenText("datos de los sitios.txt");
                 string cadena;
                 string[] arreglo = new string[2];
                 char[] separador = { ',' };
@@ -85,7 +85,7 @@ namespace Solucion_NorthPearl
                 while (cadena != null && autorizado == false)
                 {
                     arreglo = cadena.Split(separador);
-                    if (arreglo[0].Trim().Equals(textBox1.Text))
+                    if (arreglo[0].Trim().Equals(textBox1.Text.ToUpper()))
                     {
                         FrmInfoSitio forma2 = new FrmInfoSitio(textBox1.Text);                    
                         forma2.Ubicacion = arreglo[1];
@@ -171,6 +171,16 @@ namespace Solucion_NorthPearl
             FrmConfiguracion miforma5 = new FrmConfiguracion();
             miforma5.Show();
             this.Hide();
+        }
+
+        private void frmPantallaPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

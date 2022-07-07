@@ -139,7 +139,7 @@
             this.picbxLogoApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picbxLogoApp.Location = new System.Drawing.Point(210, 2);
             this.picbxLogoApp.Name = "picbxLogoApp";
-            this.picbxLogoApp.Size = new System.Drawing.Size(100, 50);
+            this.picbxLogoApp.Size = new System.Drawing.Size(100, 55);
             this.picbxLogoApp.TabIndex = 31;
             this.picbxLogoApp.TabStop = false;
             this.picbxLogoApp.Click += new System.EventHandler(this.picbxLogoApp_Click);

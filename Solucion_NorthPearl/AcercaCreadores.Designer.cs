@@ -169,6 +169,7 @@
             this.Controls.Add(this.lkJason);
             this.Controls.Add(this.lkJairo);
             this.Controls.Add(this.lkFer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmAcercaCreadores";
             this.Text = "North Pearl";
             ((System.ComponentModel.ISupportInitialize)(this.picFer)).EndInit();

@@ -103,6 +103,7 @@
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.picbxLogoApp);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmIdioma";
             this.ShowIcon = false;
             this.Text = "North Pearl";

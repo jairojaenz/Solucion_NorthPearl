@@ -104,6 +104,7 @@
             this.Controls.Add(this.lblClaro);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblApariencia);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmApariencia";
             this.ShowIcon = false;
             this.Text = "North Pearl";
