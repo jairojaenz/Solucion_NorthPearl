@@ -52,7 +52,7 @@ namespace Solucion_NorthPearl
         {
             Form7 miforma4 = new Form7();
             miforma4.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnBuscarFrm5_Click(object sender, EventArgs e)
@@ -134,12 +134,7 @@ namespace Solucion_NorthPearl
                         {
                             forma2.Sitio1 = miImage7;
                         }
-
                         
-
-
-
-                        this.Hide();
                         forma2.ShowDialog();
                         autorizado = true;
                     }
@@ -147,9 +142,7 @@ namespace Solucion_NorthPearl
                     {
                         cadena = leer.ReadLine();
                     }
-                }
-               
-               
+                }             
                 if (autorizado == false)
                 {
                     MessageBox.Show("Sitio no encontrado","Error" ,MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -160,9 +153,6 @@ namespace Solucion_NorthPearl
             {
                 MessageBox.Show("Error: " + error);
             }
-
-            
-
         }
 
         private void picbxMenu_Click(object sender, EventArgs e)
@@ -170,7 +160,7 @@ namespace Solucion_NorthPearl
 
             FrmConfiguracion miforma5 = new FrmConfiguracion();
             miforma5.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void frmPantallaPrincipal_Load(object sender, EventArgs e)

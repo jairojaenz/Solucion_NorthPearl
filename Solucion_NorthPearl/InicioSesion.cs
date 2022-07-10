@@ -57,7 +57,7 @@ namespace Solucion_NorthPearl
                     arreglo = cadena.Split(separador);
                     if (arreglo[1].Trim().Equals(user_verificar) && arreglo[2].Trim().Equals(contra_verificar))
                     {
-                        MessageBox.Show("Usuario y contraseña correctos","sesion iniciada",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        MessageBox.Show("Usuario y contraseï¿½a correctos","sesion iniciada",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         pantaPrincipal();
                         autorizado = true;
                     }
@@ -68,7 +68,7 @@ namespace Solucion_NorthPearl
                 }
                 if (autorizado == false)
                 {
-                    MessageBox.Show("Usuario y/o contraseña incorrectos","error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    MessageBox.Show("Usuario y/o contraseï¿½a incorrectos","error",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 }
             }
             catch (Exception error)

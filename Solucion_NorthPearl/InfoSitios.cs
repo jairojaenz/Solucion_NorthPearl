@@ -24,45 +24,13 @@ namespace Solucion_NorthPearl
         public FrmInfoSitio(string datos)
         {
             InitializeComponent();
-            lblNomSitio.Text = datos;
-            
-            
-        }
-        
-        
-
-        
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
+            lblNomSitio.Text = datos;        
         }
 
         private void FrmInfoSitio_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void txbxCostoServicio_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txbxNombreSitio_TextChanged(object sender, EventArgs e)
         {
             
@@ -133,9 +101,8 @@ namespace Solucion_NorthPearl
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            frmPantallaPrincipal principal = new frmPantallaPrincipal();
-            principal.Show();
-            this.Hide();
+            
+            this.Close();
         }
 
         private void lblNombreSitio_Click(object sender, EventArgs e)
@@ -155,7 +122,6 @@ namespace Solucion_NorthPearl
         {
             FrmCalificacion miforma2 = new FrmCalificacion();
             miforma2.Show();
-            this.Hide();
         }
     }
 }

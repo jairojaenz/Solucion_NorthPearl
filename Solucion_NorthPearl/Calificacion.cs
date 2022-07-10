@@ -82,9 +82,8 @@ namespace Solucion_NorthPearl
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
-            miforma5.Show();
-            this.Hide();
+
+            this.Close();
         }
     }
 }
