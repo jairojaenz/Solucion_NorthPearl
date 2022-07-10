@@ -65,8 +65,14 @@ namespace Solucion_NorthPearl
                     txtNombreSitio.Text = txtNombreSitio.Text.ToUpper();
                     escritura.WriteLine(txtNombreSitio.Text + ',' + txtUbicacionSitio.Text + ',' + txtNombreDueno.Text + ',' + txtNumeroTelefono.Text + ',' + txtCorreoSitio.Text + ',' + txtHorarioAtencion.Text + ',' + txtCostoServicio.Text);
                     MessageBox.Show("Registro almacenado", "aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                     escritura.Close();
+                    txtNombreSitio.Text = "";
+                    txtUbicacionSitio.Text = "";
+                    txtNombreDueno.Text = "";
+                    txtNumeroTelefono.Text = "";
+                    txtCorreoSitio.Text = "";
+                    txtHorarioAtencion.Text = "";
+                    txtCostoServicio.Text = "";
                 }
                 else
                 {

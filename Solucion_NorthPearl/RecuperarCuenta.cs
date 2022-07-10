@@ -26,9 +26,7 @@ namespace Solucion_NorthPearl
         private void btnCancelar_Click(object sender, EventArgs e)
         {
 
-            frmPantallaPrincipal miforma5 = new frmPantallaPrincipal();
-            miforma5.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnCambiarContra_Click(object sender, EventArgs e)

@@ -14,13 +14,12 @@
     <Content Include="bin\Debug\net6.0-windows\CASTILLO CACAO.jpg" />
     <Content Include="bin\Debug\net6.0-windows\CATEDRAL MATAGALPA.jpg" />
     <Content Include="bin\Debug\net6.0-windows\CERRO APANTE.jpg" />
-    <Content Include="bin\Debug\net6.0-windows\datos de los sitios.txt" />
     <Content Include="bin\Debug\net6.0-windows\MIRADOR CALVARIO.jpg" />
     <Content Include="bin\Debug\net6.0-windows\MUSEO CFA.jpg" />
     <Content Include="bin\Debug\net6.0-windows\MUSEO COFFEE.jpg" />
-    <Content Include="bin\Debug\net6.0-windows\registro de reseñas.txt" />
     <Content Include="bin\Debug\net6.0-windows\SELVA NEGRA.jpg" />
-    <Content Include="bin\Debug\net6.0-windows\usuarios.txt" />
+    <Content Include="bin\Debug\net6.0-windows\tmp.txt" />
+    <Content Include="bin\Debug\net6.0-windows\tmp2.txt" />
   </ItemGroup>
 
   <ItemGroup>

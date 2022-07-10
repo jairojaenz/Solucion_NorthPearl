@@ -49,7 +49,7 @@ namespace Solucion_NorthPearl
                     if (registro[2].Trim().Equals(txbxContraActual.Text))
                     {
 
-                        temporal.WriteLine(registro[0] + "," + registro[1] + "," + txtConfirmarContrasena.Text + "," + registro[3]+"," + registro[4] + "," + registro[5] + ",");
+                        temporal.WriteLine(registro[0] + "," + registro[1] + "," + txtConfirmarContrasena.Text + "," + registro[3]+"," + registro[4] + "," + registro[5]);
                         encontrado = true;
                     }
                     else

@@ -40,7 +40,6 @@ namespace Solucion_NorthPearl
             if (txtResena.Text != "")
             {
                 lectura = File.OpenText("registro de reseñas.txt");
-                txtResena.Text = txtResena.Text.ToUpper();
                 cadena = lectura.ReadLine();
 
 
@@ -60,10 +59,11 @@ namespace Solucion_NorthPearl
                 if (encontrado == false)
                 {
                     escritura = File.AppendText("registro de reseñas.txt");
-                    //es aca
                     escritura.WriteLine(txtResena.Text + '.' );
                     MessageBox.Show("Registro de reseña almacenado", "aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     escritura.Close();
+
+                    txtResena.Text = "";
                 }
                 else
                 {

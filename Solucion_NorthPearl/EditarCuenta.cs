@@ -27,17 +27,11 @@ namespace Solucion_NorthPearl
         {
             Focus();
         }
-
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnSalir_Click_1(object sender, EventArgs e)
         {
             Form7 miforma4 = new Form7();
             miforma4.Show();
             this.Close();
-        }
-
-        private void btnSalir_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void btnGuarardarCambiosFrm2_Click(object sender, EventArgs e)
